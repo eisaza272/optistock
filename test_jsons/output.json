@@ -1,0 +1,217 @@
+{
+  "id": "1213",
+  "category": {
+    "id": "5063",
+    "name": "Ventas"
+  },
+  "hasNoIvaDays": true,
+  "noIvaDaysCategory": "LOCKER_ROOM",
+  "itemCategory": {
+    "id": 2,
+    "name": "PONCHOS",
+    "description": "",
+    "status": "inactive",
+    "image": {
+      "id": 160,
+      "name": "DSC_1016_1_1024x1024@2x.jpg",
+      "url": "https://cdn3.alegra.com/58b6f7a9a514ee30ac791ffc42de2ae736e12b3b-1622750344-DSC_1016_1_1024x1024%402x.jpg?Expires=1756244593&Signature=pGpgXKyBM~npLp-3H1R3HqP5q6ftYGP5eNx-scnGHkWS8zQU-ePZETjfKToTAQntNMJZeSQ3Ook5QSpmItoYVRlIJZgWcd-zKQPSVeICtmWFA~L-Qp8iIcwSZfI153KrBr~df6sM6AWwsrMARY2v~T19TqsB5NuU8bwOOSE9MpD598OcLbhS7Bcr8PF8xEOMXF9BuiF1HWeT9ONtqJaqN4FFCPlqiAD1UsnBMC48OQDNRPPd5PoHpZ7O8xSa0f559HmxZNhBbsOIXWqSoibUWyRZDebjP67qT32IsHrPwIM4rmOnhpCYu-lyIro5DukxCASKsR8yvSwjQvniMePeBQ__&Key-Pair-Id=APKAJU3VE62QBWZP27QQ"
+    }
+  },
+  "name": "ABRIGO IMPERMEABLE ESTEREO - L",
+  "description": "C2022",
+  "reference": null,
+  "status": "inactive",
+  "calculationScale": 2,
+  "price": [
+    {
+      "idPriceList": "1",
+      "name": "General",
+      "type": "amount",
+      "price": 83949.58,
+      "currency": {
+        "code": "COP",
+        "symbol": "$"
+      },
+      "main": true,
+      "edited": false
+    }
+  ],
+  "inventory": {
+    "initialQuantity": 6,
+    "initialQuantityDate": "2022-03-24",
+    "unit": "unit",
+    "unitCost": 28000,
+    "availableQuantity": 0,
+    "warehouses": [
+      {
+        "name": "ESTEREOPICNIC",
+        "observations": "",
+        "isDefault": false,
+        "status": "inactive",
+        "id": "8",
+        "costCenter": null,
+        "address": "BRICE\u00d1O",
+        "initialQuantity": 6,
+        "availableQuantity": 0,
+        "minQuantity": null,
+        "maxQuantity": null
+      },
+      {
+        "name": "Calle 94",
+        "observations": "",
+        "isDefault": true,
+        "status": "active",
+        "id": "1",
+        "costCenter": null,
+        "address": "Calle 94 # 11a-80",
+        "initialQuantity": null,
+        "availableQuantity": 0,
+        "minQuantity": null,
+        "maxQuantity": null
+      },
+      {
+        "name": "Colina",
+        "observations": "",
+        "isDefault": false,
+        "status": "inactive",
+        "id": "3",
+        "costCenter": null,
+        "address": "Av Boyaca # 145-50",
+        "initialQuantity": 0,
+        "availableQuantity": 0,
+        "minQuantity": null,
+        "maxQuantity": null
+      },
+      {
+        "name": "VASSAR",
+        "observations": "",
+        "isDefault": false,
+        "status": "inactive",
+        "id": "7",
+        "costCenter": null,
+        "address": "Parque del country",
+        "initialQuantity": null,
+        "availableQuantity": 0,
+        "minQuantity": null,
+        "maxQuantity": null
+      }
+    ]
+  },
+  "accounting": {
+    "inventory": {
+      "id": "5023",
+      "idParent": "5002",
+      "name": "Inventarios",
+      "text": "Inventarios",
+      "code": null,
+      "description": "",
+      "type": "asset",
+      "readOnly": false,
+      "nature": "debit",
+      "blocked": "no",
+      "status": "active",
+      "categoryRule": {
+        "id": "7",
+        "name": "Inventario",
+        "key": "INVENTORY"
+      },
+      "use": "movement",
+      "showThirdPartyBalance": true
+    },
+    "inventariablePurchase": {
+      "id": "5071",
+      "idParent": "5070",
+      "name": "Costos del inventario",
+      "text": "Costos del inventario",
+      "code": null,
+      "description": "",
+      "type": "expense",
+      "readOnly": true,
+      "nature": "debit",
+      "blocked": "no",
+      "status": "active",
+      "categoryRule": {
+        "id": "33",
+        "name": "Costo de ventas",
+        "key": "INVENTARIABLE_PURCHASES"
+      },
+      "use": "movement",
+      "showThirdPartyBalance": true
+    }
+  },
+  "tax": [
+    {
+      "id": "3",
+      "name": "IVA",
+      "percentage": "19.00",
+      "description": "",
+      "status": "active",
+      "deductible": "yes",
+      "type": "IVA",
+      "categoryFavorable": {
+        "id": "5011",
+        "idParent": "5010",
+        "name": "Impuesto a las ventas a favor",
+        "text": "Impuesto a las ventas a favor",
+        "code": null,
+        "description": "",
+        "type": "asset",
+        "readOnly": false,
+        "nature": "debit",
+        "blocked": "no",
+        "status": "active",
+        "categoryRule": {
+          "id": "44",
+          "name": "IVA descontable",
+          "key": "IVA_IN_FAVOR_COL"
+        },
+        "use": "movement",
+        "showThirdPartyBalance": true
+      },
+      "categoryToBePaid": {
+        "id": "5043",
+        "idParent": "5042",
+        "name": "Impuesto a las ventas por pagar",
+        "text": "Impuesto a las ventas por pagar",
+        "code": null,
+        "description": "",
+        "type": "liability",
+        "readOnly": false,
+        "nature": "credit",
+        "blocked": "no",
+        "status": "active",
+        "categoryRule": {
+          "id": "47",
+          "name": "IVA generado",
+          "key": "IVA_TO_PAY_COL"
+        },
+        "use": "movement",
+        "showThirdPartyBalance": true
+      },
+      "rate": null
+    }
+  ],
+  "images": [
+    {
+      "id": 1030,
+      "name": "DSC_1599.jpg",
+      "url": "https://cdn3.alegra.com/58b6f7a9a514ee30ac791ffc42de2ae736e12b3b-1658250739-DSC_1599.jpg?Expires=1756244593&Signature=SHcU9vTicp~fxNIeVA4dgGT6P3gyPKcSXaARkFkoD4jjKw0OGLC6ZGjdyIZfPmf4X939K07wTMFV7R2wVhM54YlerM78qW3cpbEkZHQPb0MLRXBI5XnVCTFisSLCoqqmQVcFgf~6eh04w-Q~E~GDbetPzJ2xH-YSO4Y~J3nT2dmnzK89ItjMSQ6u-iOpCAm8ER5X2CjAgdC6CysW66pISvS714GQraIhlMBP12T1w-1KvHZzbRLqK3j4wvht6xhiEf4ybqrbb4~mgSgwhkfbk6tBEMtadH9aOSlOXrvThcM7gFh7t8D8Dy--RygGb0gKQQhhoCmWbR3UHtq8GF39Dw__&Key-Pair-Id=APKAJU3VE62QBWZP27QQ",
+      "favorite": true
+    }
+  ],
+  "customFields": [
+    {
+      "id": "1",
+      "name": "C\u00f3digo de barras",
+      "label": "C\u00f3digo de barras",
+      "key": "barcode",
+      "value": "86794688",
+      "type": "text",
+      "isRequired": false,
+      "status": "active"
+    }
+  ],
+  "productKey": null,
+  "type": "product",
+  "itemType": null
+}

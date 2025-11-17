@@ -1,0 +1,4962 @@
+[
+  {
+    "id": "1213",
+    "category": {
+      "id": "5063",
+      "name": "Ventas"
+    },
+    "hasNoIvaDays": true,
+    "noIvaDaysCategory": "LOCKER_ROOM",
+    "itemCategory": {
+      "id": 2,
+      "name": "PONCHOS",
+      "description": "",
+      "status": "inactive",
+      "image": {
+        "id": 160,
+        "name": "DSC_1016_1_1024x1024@2x.jpg",
+        "url": "https://cdn3.alegra.com/58b6f7a9a514ee30ac791ffc42de2ae736e12b3b-1622750344-DSC_1016_1_1024x1024%402x.jpg?Expires=1756329473&Signature=JagvLPpjfKfQNlFYtN8EXyDmsqjfRxCM7euCcmb8DGBLidvZK51vZFbKTMb1WT8khwn2xIdGan123hRQ6wc2vOj9-~uAWYkQ4h14kgO2u2Y2GUG~az~U1bPmCQyTsqjKp5lMCQw72ZbHhaZkZ8Qx~9fY3MPBPTF-Gxv64~wQqj6DvsSGfyUB1dxYKgnb0Udvpcy6GW4X17RaW~8wwowSo0t~yysFOVO6JizzgxvhzmVAmfQV-Duj8n4VMB00W4JUXgh9-5xyOPRZ4WHTghhZ6xBH6Uawrn~IcUhc1mOkkuS2vHuPNZLF-JxGUD2p83WY2MQo5XWf2Tn0X1HaV-nTMg__&Key-Pair-Id=APKAJU3VE62QBWZP27QQ"
+      }
+    },
+    "name": "ABRIGO IMPERMEABLE ESTEREO - L",
+    "description": "C2022",
+    "reference": null,
+    "status": "inactive",
+    "calculationScale": 2,
+    "price": [
+      {
+        "idPriceList": "1",
+        "name": "General",
+        "type": "amount",
+        "price": 83949.58,
+        "currency": {
+          "code": "COP",
+          "symbol": "$"
+        },
+        "main": true,
+        "edited": false
+      }
+    ],
+    "inventory": {
+      "initialQuantity": 6,
+      "initialQuantityDate": "2022-03-24",
+      "unit": "unit",
+      "unitCost": 28000,
+      "availableQuantity": 0,
+      "warehouses": [
+        {
+          "name": "ESTEREOPICNIC",
+          "observations": "",
+          "isDefault": false,
+          "status": "inactive",
+          "id": "8",
+          "costCenter": null,
+          "address": "BRICEÑO",
+          "initialQuantity": 6,
+          "availableQuantity": 0,
+          "minQuantity": null,
+          "maxQuantity": null
+        },
+        {
+          "name": "Calle 94",
+          "observations": "",
+          "isDefault": true,
+          "status": "active",
+          "id": "1",
+          "costCenter": null,
+          "address": "Calle 94 # 11a-80",
+          "initialQuantity": null,
+          "availableQuantity": 0,
+          "minQuantity": null,
+          "maxQuantity": null
+        },
+        {
+          "name": "Colina",
+          "observations": "",
+          "isDefault": false,
+          "status": "inactive",
+          "id": "3",
+          "costCenter": null,
+          "address": "Av Boyaca # 145-50",
+          "initialQuantity": 0,
+          "availableQuantity": 0,
+          "minQuantity": null,
+          "maxQuantity": null
+        },
+        {
+          "name": "VASSAR",
+          "observations": "",
+          "isDefault": false,
+          "status": "inactive",
+          "id": "7",
+          "costCenter": null,
+          "address": "Parque del country",
+          "initialQuantity": null,
+          "availableQuantity": 0,
+          "minQuantity": null,
+          "maxQuantity": null
+        }
+      ]
+    },
+    "accounting": {
+      "inventory": {
+        "id": "5023",
+        "idParent": "5002",
+        "name": "Inventarios",
+        "text": "Inventarios",
+        "code": null,
+        "description": "",
+        "type": "asset",
+        "readOnly": false,
+        "nature": "debit",
+        "blocked": "no",
+        "status": "active",
+        "categoryRule": {
+          "id": "7",
+          "name": "Inventario",
+          "key": "INVENTORY"
+        },
+        "use": "movement",
+        "showThirdPartyBalance": true
+      },
+      "inventariablePurchase": {
+        "id": "5071",
+        "idParent": "5070",
+        "name": "Costos del inventario",
+        "text": "Costos del inventario",
+        "code": null,
+        "description": "",
+        "type": "expense",
+        "readOnly": true,
+        "nature": "debit",
+        "blocked": "no",
+        "status": "active",
+        "categoryRule": {
+          "id": "33",
+          "name": "Costo de ventas",
+          "key": "INVENTARIABLE_PURCHASES"
+        },
+        "use": "movement",
+        "showThirdPartyBalance": true
+      }
+    },
+    "tax": [
+      {
+        "id": "3",
+        "name": "IVA",
+        "percentage": "19.00",
+        "description": "",
+        "status": "active",
+        "deductible": "yes",
+        "type": "IVA",
+        "categoryFavorable": {
+          "id": "5011",
+          "idParent": "5010",
+          "name": "Impuesto a las ventas a favor",
+          "text": "Impuesto a las ventas a favor",
+          "code": null,
+          "description": "",
+          "type": "asset",
+          "readOnly": false,
+          "nature": "debit",
+          "blocked": "no",
+          "status": "active",
+          "categoryRule": {
+            "id": "44",
+            "name": "IVA descontable",
+            "key": "IVA_IN_FAVOR_COL"
+          },
+          "use": "movement",
+          "showThirdPartyBalance": true
+        },
+        "categoryToBePaid": {
+          "id": "5043",
+          "idParent": "5042",
+          "name": "Impuesto a las ventas por pagar",
+          "text": "Impuesto a las ventas por pagar",
+          "code": null,
+          "description": "",
+          "type": "liability",
+          "readOnly": false,
+          "nature": "credit",
+          "blocked": "no",
+          "status": "active",
+          "categoryRule": {
+            "id": "47",
+            "name": "IVA generado",
+            "key": "IVA_TO_PAY_COL"
+          },
+          "use": "movement",
+          "showThirdPartyBalance": true
+        },
+        "rate": null
+      }
+    ],
+    "images": [
+      {
+        "id": 1030,
+        "name": "DSC_1599.jpg",
+        "url": "https://cdn3.alegra.com/58b6f7a9a514ee30ac791ffc42de2ae736e12b3b-1658250739-DSC_1599.jpg?Expires=1756329473&Signature=cB9D5EUcx~kZnd8d3oYke~3nkFD2fvAIVkbzs5G5iaNc0ve3IvCkw2kLItfsyzikhQT3SeefbwwRwtoyGsdzDhvSrDDICHRAJSku7h9y~ss5l7IqFE9Wbsop1~V35cEux3FDY0DaTXQWMtmS~KbUJTGX43KdD0uiKtobKL0iPhqs8tZy8PTSgJFbimB0qnJnrPeQ3Fxh6i2jWeOWUFeCeGG~ar2SvLxS9Jt2-5o1iZVzJdJplD8QjqBLeorALSkvH~uYuFL2JWOUJJxx~bxeuY0m~7Avkj3xjb-H3l5KtgayxpsOfDsO~Jnq48i6Frgoei0UhKj~Y0RwdhVSFIQN2A__&Key-Pair-Id=APKAJU3VE62QBWZP27QQ",
+        "favorite": true
+      }
+    ],
+    "customFields": [
+      {
+        "id": "1",
+        "name": "Código de barras",
+        "label": "Código de barras",
+        "key": "barcode",
+        "value": "86794688",
+        "type": "text",
+        "isRequired": false,
+        "status": "active"
+      }
+    ],
+    "productKey": null,
+    "type": "product",
+    "itemType": null
+  },
+  {
+    "id": "1212",
+    "category": {
+      "id": "5063",
+      "name": "Ventas"
+    },
+    "hasNoIvaDays": true,
+    "noIvaDaysCategory": "LOCKER_ROOM",
+    "itemCategory": {
+      "id": 2,
+      "name": "PONCHOS",
+      "description": "",
+      "status": "inactive",
+      "image": {
+        "id": 160,
+        "name": "DSC_1016_1_1024x1024@2x.jpg",
+        "url": "https://cdn3.alegra.com/58b6f7a9a514ee30ac791ffc42de2ae736e12b3b-1622750344-DSC_1016_1_1024x1024%402x.jpg?Expires=1756329473&Signature=JagvLPpjfKfQNlFYtN8EXyDmsqjfRxCM7euCcmb8DGBLidvZK51vZFbKTMb1WT8khwn2xIdGan123hRQ6wc2vOj9-~uAWYkQ4h14kgO2u2Y2GUG~az~U1bPmCQyTsqjKp5lMCQw72ZbHhaZkZ8Qx~9fY3MPBPTF-Gxv64~wQqj6DvsSGfyUB1dxYKgnb0Udvpcy6GW4X17RaW~8wwowSo0t~yysFOVO6JizzgxvhzmVAmfQV-Duj8n4VMB00W4JUXgh9-5xyOPRZ4WHTghhZ6xBH6Uawrn~IcUhc1mOkkuS2vHuPNZLF-JxGUD2p83WY2MQo5XWf2Tn0X1HaV-nTMg__&Key-Pair-Id=APKAJU3VE62QBWZP27QQ"
+      }
+    },
+    "name": "ABRIGO IMPERMEABLE ESTEREO - M",
+    "description": "C2022",
+    "reference": null,
+    "status": "inactive",
+    "calculationScale": 2,
+    "price": [
+      {
+        "idPriceList": "1",
+        "name": "General",
+        "type": "amount",
+        "price": 83949.58,
+        "currency": {
+          "code": "COP",
+          "symbol": "$"
+        },
+        "main": true,
+        "edited": false
+      }
+    ],
+    "inventory": {
+      "initialQuantity": 22,
+      "initialQuantityDate": "2021-05-06",
+      "unit": "unit",
+      "unitCost": 28000,
+      "availableQuantity": 0,
+      "warehouses": [
+        {
+          "name": "ESTEREOPICNIC",
+          "observations": "",
+          "isDefault": false,
+          "status": "inactive",
+          "id": "8",
+          "costCenter": null,
+          "address": "BRICEÑO",
+          "initialQuantity": 22,
+          "availableQuantity": 0,
+          "minQuantity": null,
+          "maxQuantity": null
+        },
+        {
+          "name": "Calle 94",
+          "observations": "",
+          "isDefault": true,
+          "status": "active",
+          "id": "1",
+          "costCenter": null,
+          "address": "Calle 94 # 11a-80",
+          "initialQuantity": null,
+          "availableQuantity": 0,
+          "minQuantity": null,
+          "maxQuantity": null
+        },
+        {
+          "name": "Colina",
+          "observations": "",
+          "isDefault": false,
+          "status": "inactive",
+          "id": "3",
+          "costCenter": null,
+          "address": "Av Boyaca # 145-50",
+          "initialQuantity": 0,
+          "availableQuantity": 0,
+          "minQuantity": null,
+          "maxQuantity": null
+        },
+        {
+          "name": "VASSAR",
+          "observations": "",
+          "isDefault": false,
+          "status": "inactive",
+          "id": "7",
+          "costCenter": null,
+          "address": "Parque del country",
+          "initialQuantity": null,
+          "availableQuantity": 0,
+          "minQuantity": null,
+          "maxQuantity": null
+        }
+      ]
+    },
+    "accounting": {
+      "inventory": {
+        "id": "5023",
+        "idParent": "5002",
+        "name": "Inventarios",
+        "text": "Inventarios",
+        "code": null,
+        "description": "",
+        "type": "asset",
+        "readOnly": false,
+        "nature": "debit",
+        "blocked": "no",
+        "status": "active",
+        "categoryRule": {
+          "id": "7",
+          "name": "Inventario",
+          "key": "INVENTORY"
+        },
+        "use": "movement",
+        "showThirdPartyBalance": true
+      },
+      "inventariablePurchase": {
+        "id": "5071",
+        "idParent": "5070",
+        "name": "Costos del inventario",
+        "text": "Costos del inventario",
+        "code": null,
+        "description": "",
+        "type": "expense",
+        "readOnly": true,
+        "nature": "debit",
+        "blocked": "no",
+        "status": "active",
+        "categoryRule": {
+          "id": "33",
+          "name": "Costo de ventas",
+          "key": "INVENTARIABLE_PURCHASES"
+        },
+        "use": "movement",
+        "showThirdPartyBalance": true
+      }
+    },
+    "tax": [
+      {
+        "id": "3",
+        "name": "IVA",
+        "percentage": "19.00",
+        "description": "",
+        "status": "active",
+        "deductible": "yes",
+        "type": "IVA",
+        "categoryFavorable": {
+          "id": "5011",
+          "idParent": "5010",
+          "name": "Impuesto a las ventas a favor",
+          "text": "Impuesto a las ventas a favor",
+          "code": null,
+          "description": "",
+          "type": "asset",
+          "readOnly": false,
+          "nature": "debit",
+          "blocked": "no",
+          "status": "active",
+          "categoryRule": {
+            "id": "44",
+            "name": "IVA descontable",
+            "key": "IVA_IN_FAVOR_COL"
+          },
+          "use": "movement",
+          "showThirdPartyBalance": true
+        },
+        "categoryToBePaid": {
+          "id": "5043",
+          "idParent": "5042",
+          "name": "Impuesto a las ventas por pagar",
+          "text": "Impuesto a las ventas por pagar",
+          "code": null,
+          "description": "",
+          "type": "liability",
+          "readOnly": false,
+          "nature": "credit",
+          "blocked": "no",
+          "status": "active",
+          "categoryRule": {
+            "id": "47",
+            "name": "IVA generado",
+            "key": "IVA_TO_PAY_COL"
+          },
+          "use": "movement",
+          "showThirdPartyBalance": true
+        },
+        "rate": null
+      }
+    ],
+    "images": [
+      {
+        "id": 1031,
+        "name": "DSC_1599.jpg",
+        "url": "https://cdn3.alegra.com/58b6f7a9a514ee30ac791ffc42de2ae736e12b3b-1658250769-DSC_1599.jpg?Expires=1756329473&Signature=MIZkBXa6Wpyg~QBjmxiXOJJ-LhZ5cOuVcrMhGNc3B~5t~nRKscJjXyCl50rgMU1BNzDb7gn8pzaryYOIBBIVONR3X9vLmtY5H3fGuTxHtDV9cVDbq7l0iFqK7kiY2V9weEi~-c~19R8e4jjjNmRtOIdc5JUZagic37z2g5YP-6XXxrtm74c8rt9kjtBFfpk19ll~WEuZTKzaz6Npua0Wfz1jaEJRr4-3AhZSuxCRiO6c0-2RfEziOpwZeyzJ87ZM~o0p-bgLuM-KZFGmavVnh7xCmTy6bQqhYfNza~cH2C1n-2G4p05tgCNf1ymsqadd2Zy-ChwIVCyytzJyJKKlXg__&Key-Pair-Id=APKAJU3VE62QBWZP27QQ",
+        "favorite": true
+      }
+    ],
+    "customFields": [
+      {
+        "id": "1",
+        "name": "Código de barras",
+        "label": "Código de barras",
+        "key": "barcode",
+        "value": "86761920",
+        "type": "text",
+        "isRequired": false,
+        "status": "active"
+      }
+    ],
+    "productKey": null,
+    "type": "product",
+    "itemType": null
+  },
+  {
+    "id": "1211",
+    "category": {
+      "id": "5063",
+      "name": "Ventas"
+    },
+    "hasNoIvaDays": true,
+    "noIvaDaysCategory": "LOCKER_ROOM",
+    "itemCategory": {
+      "id": 2,
+      "name": "PONCHOS",
+      "description": "",
+      "status": "inactive",
+      "image": {
+        "id": 160,
+        "name": "DSC_1016_1_1024x1024@2x.jpg",
+        "url": "https://cdn3.alegra.com/58b6f7a9a514ee30ac791ffc42de2ae736e12b3b-1622750344-DSC_1016_1_1024x1024%402x.jpg?Expires=1756329473&Signature=JagvLPpjfKfQNlFYtN8EXyDmsqjfRxCM7euCcmb8DGBLidvZK51vZFbKTMb1WT8khwn2xIdGan123hRQ6wc2vOj9-~uAWYkQ4h14kgO2u2Y2GUG~az~U1bPmCQyTsqjKp5lMCQw72ZbHhaZkZ8Qx~9fY3MPBPTF-Gxv64~wQqj6DvsSGfyUB1dxYKgnb0Udvpcy6GW4X17RaW~8wwowSo0t~yysFOVO6JizzgxvhzmVAmfQV-Duj8n4VMB00W4JUXgh9-5xyOPRZ4WHTghhZ6xBH6Uawrn~IcUhc1mOkkuS2vHuPNZLF-JxGUD2p83WY2MQo5XWf2Tn0X1HaV-nTMg__&Key-Pair-Id=APKAJU3VE62QBWZP27QQ"
+      }
+    },
+    "name": "ABRIGO IMPERMEABLE ESTEREO - S",
+    "description": "C2022",
+    "reference": null,
+    "status": "inactive",
+    "calculationScale": 2,
+    "price": [
+      {
+        "idPriceList": "1",
+        "name": "General",
+        "type": "amount",
+        "price": 83949.58,
+        "currency": {
+          "code": "COP",
+          "symbol": "$"
+        },
+        "main": true,
+        "edited": false
+      }
+    ],
+    "inventory": {
+      "initialQuantity": 22,
+      "initialQuantityDate": "2022-03-24",
+      "unit": "unit",
+      "unitCost": 28000,
+      "availableQuantity": 0,
+      "warehouses": [
+        {
+          "name": "ESTEREOPICNIC",
+          "observations": "",
+          "isDefault": false,
+          "status": "inactive",
+          "id": "8",
+          "costCenter": null,
+          "address": "BRICEÑO",
+          "initialQuantity": 22,
+          "availableQuantity": 0,
+          "minQuantity": null,
+          "maxQuantity": null
+        },
+        {
+          "name": "Calle 94",
+          "observations": "",
+          "isDefault": true,
+          "status": "active",
+          "id": "1",
+          "costCenter": null,
+          "address": "Calle 94 # 11a-80",
+          "initialQuantity": null,
+          "availableQuantity": 0,
+          "minQuantity": null,
+          "maxQuantity": null
+        },
+        {
+          "name": "Colina",
+          "observations": "",
+          "isDefault": false,
+          "status": "inactive",
+          "id": "3",
+          "costCenter": null,
+          "address": "Av Boyaca # 145-50",
+          "initialQuantity": 0,
+          "availableQuantity": 0,
+          "minQuantity": null,
+          "maxQuantity": null
+        },
+        {
+          "name": "VASSAR",
+          "observations": "",
+          "isDefault": false,
+          "status": "inactive",
+          "id": "7",
+          "costCenter": null,
+          "address": "Parque del country",
+          "initialQuantity": null,
+          "availableQuantity": 0,
+          "minQuantity": null,
+          "maxQuantity": null
+        }
+      ]
+    },
+    "accounting": {
+      "inventory": {
+        "id": "5023",
+        "idParent": "5002",
+        "name": "Inventarios",
+        "text": "Inventarios",
+        "code": null,
+        "description": "",
+        "type": "asset",
+        "readOnly": false,
+        "nature": "debit",
+        "blocked": "no",
+        "status": "active",
+        "categoryRule": {
+          "id": "7",
+          "name": "Inventario",
+          "key": "INVENTORY"
+        },
+        "use": "movement",
+        "showThirdPartyBalance": true
+      },
+      "inventariablePurchase": {
+        "id": "5071",
+        "idParent": "5070",
+        "name": "Costos del inventario",
+        "text": "Costos del inventario",
+        "code": null,
+        "description": "",
+        "type": "expense",
+        "readOnly": true,
+        "nature": "debit",
+        "blocked": "no",
+        "status": "active",
+        "categoryRule": {
+          "id": "33",
+          "name": "Costo de ventas",
+          "key": "INVENTARIABLE_PURCHASES"
+        },
+        "use": "movement",
+        "showThirdPartyBalance": true
+      }
+    },
+    "tax": [
+      {
+        "id": "3",
+        "name": "IVA",
+        "percentage": "19.00",
+        "description": "",
+        "status": "active",
+        "deductible": "yes",
+        "type": "IVA",
+        "categoryFavorable": {
+          "id": "5011",
+          "idParent": "5010",
+          "name": "Impuesto a las ventas a favor",
+          "text": "Impuesto a las ventas a favor",
+          "code": null,
+          "description": "",
+          "type": "asset",
+          "readOnly": false,
+          "nature": "debit",
+          "blocked": "no",
+          "status": "active",
+          "categoryRule": {
+            "id": "44",
+            "name": "IVA descontable",
+            "key": "IVA_IN_FAVOR_COL"
+          },
+          "use": "movement",
+          "showThirdPartyBalance": true
+        },
+        "categoryToBePaid": {
+          "id": "5043",
+          "idParent": "5042",
+          "name": "Impuesto a las ventas por pagar",
+          "text": "Impuesto a las ventas por pagar",
+          "code": null,
+          "description": "",
+          "type": "liability",
+          "readOnly": false,
+          "nature": "credit",
+          "blocked": "no",
+          "status": "active",
+          "categoryRule": {
+            "id": "47",
+            "name": "IVA generado",
+            "key": "IVA_TO_PAY_COL"
+          },
+          "use": "movement",
+          "showThirdPartyBalance": true
+        },
+        "rate": null
+      }
+    ],
+    "images": [
+      {
+        "id": 1032,
+        "name": "DSC_1599.jpg",
+        "url": "https://cdn3.alegra.com/58b6f7a9a514ee30ac791ffc42de2ae736e12b3b-1658250791-DSC_1599.jpg?Expires=1756329473&Signature=ZoOyjwIua-M6pCDrrY4nbkdtZ3RisbjZTr4JhneSUAvr6cH0HP~R6fDhoqJ7Rr6ndbUJJfEyHOkGxvd87O-w-Bcx75nCxLugLuNPhi4xxBoIevH0NYDYmMmEP63yw~hRygoxLKVf2Zxa5IKQJ1tVL4KwXaIZq2xH6YyvkwNAH7umbwPoNHZ-DqfE3vnxgR2dVCrHxQpqttJ8d5mD-VPu~qNp~kGtSf76h0r6PBXuoCbuc2LDJVh1RwjbHaCiTS~U2gFFzq3SXTv0hulw9qXiLo5K7YVWgU2Vgh8GtXhku~5POvBHQt1l3WwDdHYD0ttmMHy2P918m8O7qgaxqb9nbA__&Key-Pair-Id=APKAJU3VE62QBWZP27QQ",
+        "favorite": true
+      }
+    ],
+    "customFields": [
+      {
+        "id": "1",
+        "name": "Código de barras",
+        "label": "Código de barras",
+        "key": "barcode",
+        "value": "86729152",
+        "type": "text",
+        "isRequired": false,
+        "status": "active"
+      }
+    ],
+    "productKey": null,
+    "type": "product",
+    "itemType": null
+  },
+  {
+    "id": "3905",
+    "category": {
+      "id": "5063",
+      "name": "Ventas"
+    },
+    "hasNoIvaDays": false,
+    "name": "AJUSTE DE PRECIO",
+    "description": null,
+    "reference": null,
+    "status": "active",
+    "calculationScale": 6,
+    "price": [
+      {
+        "idPriceList": "1",
+        "name": "General",
+        "type": "amount",
+        "price": 0,
+        "currency": {
+          "code": "COP",
+          "symbol": "$"
+        },
+        "main": true,
+        "edited": false
+      }
+    ],
+    "inventory": {
+      "unit": "service"
+    },
+    "tax": [
+      {
+        "id": "3",
+        "name": "IVA",
+        "percentage": "19.00",
+        "description": "",
+        "status": "active",
+        "deductible": "yes",
+        "type": "IVA",
+        "categoryFavorable": {
+          "id": "5011",
+          "idParent": "5010",
+          "name": "Impuesto a las ventas a favor",
+          "text": "Impuesto a las ventas a favor",
+          "code": null,
+          "description": "",
+          "type": "asset",
+          "readOnly": false,
+          "nature": "debit",
+          "blocked": "no",
+          "status": "active",
+          "categoryRule": {
+            "id": "44",
+            "name": "IVA descontable",
+            "key": "IVA_IN_FAVOR_COL"
+          },
+          "use": "movement",
+          "showThirdPartyBalance": true
+        },
+        "categoryToBePaid": {
+          "id": "5043",
+          "idParent": "5042",
+          "name": "Impuesto a las ventas por pagar",
+          "text": "Impuesto a las ventas por pagar",
+          "code": null,
+          "description": "",
+          "type": "liability",
+          "readOnly": false,
+          "nature": "credit",
+          "blocked": "no",
+          "status": "active",
+          "categoryRule": {
+            "id": "47",
+            "name": "IVA generado",
+            "key": "IVA_TO_PAY_COL"
+          },
+          "use": "movement",
+          "showThirdPartyBalance": true
+        },
+        "rate": null
+      }
+    ],
+    "customFields": [],
+    "productKey": null,
+    "type": "service",
+    "itemType": null
+  },
+  {
+    "id": "730",
+    "category": {
+      "id": "5063",
+      "name": "Ventas"
+    },
+    "hasNoIvaDays": false,
+    "itemCategory": {
+      "id": 10,
+      "name": "SIENTOCHENTA",
+      "description": "",
+      "status": "inactive"
+    },
+    "name": "Al Gore Azul Azul claro M",
+    "description": "SO",
+    "reference": null,
+    "status": "inactive",
+    "calculationScale": 6,
+    "price": [
+      {
+        "idPriceList": "1",
+        "name": "General",
+        "type": "amount",
+        "price": 193277.31,
+        "currency": {
+          "code": "COP",
+          "symbol": "$"
+        },
+        "main": true,
+        "edited": false
+      }
+    ],
+    "inventory": {
+      "initialQuantity": 1,
+      "initialQuantityDate": "2021-08-03",
+      "unit": "unit",
+      "unitCost": 173949.58,
+      "availableQuantity": 0,
+      "warehouses": [
+        {
+          "name": "Calle 94",
+          "observations": "",
+          "isDefault": true,
+          "status": "active",
+          "id": "1",
+          "costCenter": null,
+          "address": "Calle 94 # 11a-80",
+          "initialQuantity": 1,
+          "availableQuantity": 0,
+          "minQuantity": null,
+          "maxQuantity": null
+        }
+      ]
+    },
+    "accounting": {
+      "inventory": {
+        "id": "5023",
+        "idParent": "5002",
+        "name": "Inventarios",
+        "text": "Inventarios",
+        "code": null,
+        "description": "",
+        "type": "asset",
+        "readOnly": false,
+        "nature": "debit",
+        "blocked": "no",
+        "status": "active",
+        "categoryRule": {
+          "id": "7",
+          "name": "Inventario",
+          "key": "INVENTORY"
+        },
+        "use": "movement",
+        "showThirdPartyBalance": true
+      },
+      "inventariablePurchase": {
+        "id": "5071",
+        "idParent": "5070",
+        "name": "Costos del inventario",
+        "text": "Costos del inventario",
+        "code": null,
+        "description": "",
+        "type": "expense",
+        "readOnly": true,
+        "nature": "debit",
+        "blocked": "no",
+        "status": "active",
+        "categoryRule": {
+          "id": "33",
+          "name": "Costo de ventas",
+          "key": "INVENTARIABLE_PURCHASES"
+        },
+        "use": "movement",
+        "showThirdPartyBalance": true
+      }
+    },
+    "tax": [
+      {
+        "id": "3",
+        "name": "IVA",
+        "percentage": "19.00",
+        "description": "",
+        "status": "active",
+        "deductible": "yes",
+        "type": "IVA",
+        "categoryFavorable": {
+          "id": "5011",
+          "idParent": "5010",
+          "name": "Impuesto a las ventas a favor",
+          "text": "Impuesto a las ventas a favor",
+          "code": null,
+          "description": "",
+          "type": "asset",
+          "readOnly": false,
+          "nature": "debit",
+          "blocked": "no",
+          "status": "active",
+          "categoryRule": {
+            "id": "44",
+            "name": "IVA descontable",
+            "key": "IVA_IN_FAVOR_COL"
+          },
+          "use": "movement",
+          "showThirdPartyBalance": true
+        },
+        "categoryToBePaid": {
+          "id": "5043",
+          "idParent": "5042",
+          "name": "Impuesto a las ventas por pagar",
+          "text": "Impuesto a las ventas por pagar",
+          "code": null,
+          "description": "",
+          "type": "liability",
+          "readOnly": false,
+          "nature": "credit",
+          "blocked": "no",
+          "status": "active",
+          "categoryRule": {
+            "id": "47",
+            "name": "IVA generado",
+            "key": "IVA_TO_PAY_COL"
+          },
+          "use": "movement",
+          "showThirdPartyBalance": true
+        },
+        "rate": null
+      }
+    ],
+    "images": [
+      {
+        "id": 604,
+        "name": "AL GORE AZUL.png",
+        "url": "https://cdn3.alegra.com/58b6f7a9a514ee30ac791ffc42de2ae736e12b3b-1628099486-AL+GORE+AZUL.png?Expires=1756329473&Signature=jMuOim~kMsBZWR06XHJiD21X0aNMk7~355U3k014JVsSP2NAQ4AxkbF~QiPHafJjBmQNDVXjm4Bo2VDTib3I5CJY8MKT6W5tn93uqQOGK0~N6LkokqJ6AWCdvTGT9VPk9j~GewBu6sY3ETM2y0NwKOFbm-swxt8fUJF5GPBImnQhKhPvc2F53O1SEBV4CN6gx0jmg5zhRbASVIyJ0Jm3woYzy~~mCzq-~1Z882wM8IwifuP3L2C0-DQ-bbTkGr1iDxTtxURRco~zNa9EkKfHw2wJgigBVi~oDkdZ2my6XmstfDgXJcIE7CM~U91zv5ML7YSIlREJwlL~t9speF5acg__&Key-Pair-Id=APKAJU3VE62QBWZP27QQ",
+        "favorite": true
+      }
+    ],
+    "customFields": [],
+    "productKey": null,
+    "type": "simple",
+    "itemType": null
+  },
+  {
+    "id": "729",
+    "category": {
+      "id": "5063",
+      "name": "Ventas"
+    },
+    "hasNoIvaDays": false,
+    "itemCategory": {
+      "id": 10,
+      "name": "SIENTOCHENTA",
+      "description": "",
+      "status": "inactive"
+    },
+    "name": "Al Gore Azul Azul claro S",
+    "description": "SO",
+    "reference": null,
+    "status": "inactive",
+    "calculationScale": 6,
+    "price": [
+      {
+        "idPriceList": "1",
+        "name": "General",
+        "type": "amount",
+        "price": 193277.31,
+        "currency": {
+          "code": "COP",
+          "symbol": "$"
+        },
+        "main": true,
+        "edited": false
+      }
+    ],
+    "inventory": {
+      "initialQuantity": 1,
+      "initialQuantityDate": "2021-08-03",
+      "unit": "unit",
+      "unitCost": 173949.58,
+      "availableQuantity": 0,
+      "warehouses": [
+        {
+          "name": "Calle 94",
+          "observations": "",
+          "isDefault": true,
+          "status": "active",
+          "id": "1",
+          "costCenter": null,
+          "address": "Calle 94 # 11a-80",
+          "initialQuantity": 1,
+          "availableQuantity": 0,
+          "minQuantity": null,
+          "maxQuantity": null
+        }
+      ]
+    },
+    "accounting": {
+      "inventory": {
+        "id": "5023",
+        "idParent": "5002",
+        "name": "Inventarios",
+        "text": "Inventarios",
+        "code": null,
+        "description": "",
+        "type": "asset",
+        "readOnly": false,
+        "nature": "debit",
+        "blocked": "no",
+        "status": "active",
+        "categoryRule": {
+          "id": "7",
+          "name": "Inventario",
+          "key": "INVENTORY"
+        },
+        "use": "movement",
+        "showThirdPartyBalance": true
+      },
+      "inventariablePurchase": {
+        "id": "5071",
+        "idParent": "5070",
+        "name": "Costos del inventario",
+        "text": "Costos del inventario",
+        "code": null,
+        "description": "",
+        "type": "expense",
+        "readOnly": true,
+        "nature": "debit",
+        "blocked": "no",
+        "status": "active",
+        "categoryRule": {
+          "id": "33",
+          "name": "Costo de ventas",
+          "key": "INVENTARIABLE_PURCHASES"
+        },
+        "use": "movement",
+        "showThirdPartyBalance": true
+      }
+    },
+    "tax": [
+      {
+        "id": "3",
+        "name": "IVA",
+        "percentage": "19.00",
+        "description": "",
+        "status": "active",
+        "deductible": "yes",
+        "type": "IVA",
+        "categoryFavorable": {
+          "id": "5011",
+          "idParent": "5010",
+          "name": "Impuesto a las ventas a favor",
+          "text": "Impuesto a las ventas a favor",
+          "code": null,
+          "description": "",
+          "type": "asset",
+          "readOnly": false,
+          "nature": "debit",
+          "blocked": "no",
+          "status": "active",
+          "categoryRule": {
+            "id": "44",
+            "name": "IVA descontable",
+            "key": "IVA_IN_FAVOR_COL"
+          },
+          "use": "movement",
+          "showThirdPartyBalance": true
+        },
+        "categoryToBePaid": {
+          "id": "5043",
+          "idParent": "5042",
+          "name": "Impuesto a las ventas por pagar",
+          "text": "Impuesto a las ventas por pagar",
+          "code": null,
+          "description": "",
+          "type": "liability",
+          "readOnly": false,
+          "nature": "credit",
+          "blocked": "no",
+          "status": "active",
+          "categoryRule": {
+            "id": "47",
+            "name": "IVA generado",
+            "key": "IVA_TO_PAY_COL"
+          },
+          "use": "movement",
+          "showThirdPartyBalance": true
+        },
+        "rate": null
+      }
+    ],
+    "images": [
+      {
+        "id": 605,
+        "name": "AL GORE AZUL.png",
+        "url": "https://cdn3.alegra.com/58b6f7a9a514ee30ac791ffc42de2ae736e12b3b-1628099531-AL+GORE+AZUL.png?Expires=1756329473&Signature=jqKvxtyuSLsEkm9rOjOBtpcOFtfpSzCzZGG5TnGZ8BxkqWLzGjpDyEoTvdmQyXIb7GzJyLLvPkPdgm-IstdPCWOMwE2tQ34dMZgoPPigjHjwiCUHHRsJ0Plz0QFgitUWkDrz90iHIR2QhzoSJsRrQp7GqoB7dOO-GIVTjMfKmcin0k0yNXbWvtLz6cJWM2C3gAsjewFOulBQF6KfQHrc-qbfy1qz7faFoaJdHeSm9gx12NFfGor8RNM1YPCCV6HheFelKqxnkUDokDS7iKg5rOdZV5iN4dg2dN11yKdB-P0Dj0yBaqAdX06kIezWrA5mQ0uyIUmopo4AHnTECgHnqw__&Key-Pair-Id=APKAJU3VE62QBWZP27QQ",
+        "favorite": true
+      }
+    ],
+    "customFields": [],
+    "productKey": null,
+    "type": "simple",
+    "itemType": null
+  },
+  {
+    "id": "728",
+    "category": {
+      "id": "5063",
+      "name": "Ventas"
+    },
+    "hasNoIvaDays": false,
+    "itemCategory": {
+      "id": 10,
+      "name": "SIENTOCHENTA",
+      "description": "",
+      "status": "inactive"
+    },
+    "name": "Al Gore Azul Azul claro XS",
+    "description": "SO",
+    "reference": null,
+    "status": "inactive",
+    "calculationScale": 6,
+    "price": [
+      {
+        "idPriceList": "1",
+        "name": "General",
+        "type": "amount",
+        "price": 193277.31,
+        "currency": {
+          "code": "COP",
+          "symbol": "$"
+        },
+        "main": true,
+        "edited": false
+      }
+    ],
+    "inventory": {
+      "initialQuantity": 1,
+      "initialQuantityDate": "2021-08-03",
+      "unit": "unit",
+      "unitCost": 173949.58,
+      "availableQuantity": 0,
+      "warehouses": [
+        {
+          "name": "Calle 94",
+          "observations": "",
+          "isDefault": true,
+          "status": "active",
+          "id": "1",
+          "costCenter": null,
+          "address": "Calle 94 # 11a-80",
+          "initialQuantity": 1,
+          "availableQuantity": 0,
+          "minQuantity": null,
+          "maxQuantity": null
+        }
+      ]
+    },
+    "accounting": {
+      "inventory": {
+        "id": "5023",
+        "idParent": "5002",
+        "name": "Inventarios",
+        "text": "Inventarios",
+        "code": null,
+        "description": "",
+        "type": "asset",
+        "readOnly": false,
+        "nature": "debit",
+        "blocked": "no",
+        "status": "active",
+        "categoryRule": {
+          "id": "7",
+          "name": "Inventario",
+          "key": "INVENTORY"
+        },
+        "use": "movement",
+        "showThirdPartyBalance": true
+      },
+      "inventariablePurchase": {
+        "id": "5071",
+        "idParent": "5070",
+        "name": "Costos del inventario",
+        "text": "Costos del inventario",
+        "code": null,
+        "description": "",
+        "type": "expense",
+        "readOnly": true,
+        "nature": "debit",
+        "blocked": "no",
+        "status": "active",
+        "categoryRule": {
+          "id": "33",
+          "name": "Costo de ventas",
+          "key": "INVENTARIABLE_PURCHASES"
+        },
+        "use": "movement",
+        "showThirdPartyBalance": true
+      }
+    },
+    "tax": [
+      {
+        "id": "3",
+        "name": "IVA",
+        "percentage": "19.00",
+        "description": "",
+        "status": "active",
+        "deductible": "yes",
+        "type": "IVA",
+        "categoryFavorable": {
+          "id": "5011",
+          "idParent": "5010",
+          "name": "Impuesto a las ventas a favor",
+          "text": "Impuesto a las ventas a favor",
+          "code": null,
+          "description": "",
+          "type": "asset",
+          "readOnly": false,
+          "nature": "debit",
+          "blocked": "no",
+          "status": "active",
+          "categoryRule": {
+            "id": "44",
+            "name": "IVA descontable",
+            "key": "IVA_IN_FAVOR_COL"
+          },
+          "use": "movement",
+          "showThirdPartyBalance": true
+        },
+        "categoryToBePaid": {
+          "id": "5043",
+          "idParent": "5042",
+          "name": "Impuesto a las ventas por pagar",
+          "text": "Impuesto a las ventas por pagar",
+          "code": null,
+          "description": "",
+          "type": "liability",
+          "readOnly": false,
+          "nature": "credit",
+          "blocked": "no",
+          "status": "active",
+          "categoryRule": {
+            "id": "47",
+            "name": "IVA generado",
+            "key": "IVA_TO_PAY_COL"
+          },
+          "use": "movement",
+          "showThirdPartyBalance": true
+        },
+        "rate": null
+      }
+    ],
+    "images": [
+      {
+        "id": 606,
+        "name": "AL GORE AZUL.png",
+        "url": "https://cdn3.alegra.com/58b6f7a9a514ee30ac791ffc42de2ae736e12b3b-1628099568-AL+GORE+AZUL.png?Expires=1756329473&Signature=i2s6NMfLdffAMgipuGClPSIPh7kEGmFD84c54YZKXc9sfWZuEjov9btkXd2ibc0C6iMsLwB9NSGGO34kve~Vjyyajzoio57rXyEeUwe8v1i53cwBc7-ktRaWzZwcoMBCcVO0-r8mnnppDHxppIyf79J2fp0dy6P-VVlL49usnfOu7DiMECAe5~7vyNjoUKw2gyT7GcrihQDTbtMEYQamMwXzh7Da3fzx6L9kbfr5wAO8oLLJm7-GuXTpStUa10XShLj3x~9AA2dV4WLZUYYX54GhVvMWmbaTGWapqJWaa51DK5uNwUFnxBa~~bU4Xuh2QkAWNele308iyZN5a2D~VA__&Key-Pair-Id=APKAJU3VE62QBWZP27QQ",
+        "favorite": true
+      }
+    ],
+    "customFields": [],
+    "productKey": null,
+    "type": "simple",
+    "itemType": null
+  },
+  {
+    "id": "733",
+    "category": {
+      "id": "5063",
+      "name": "Ventas"
+    },
+    "hasNoIvaDays": false,
+    "itemCategory": {
+      "id": 10,
+      "name": "SIENTOCHENTA",
+      "description": "",
+      "status": "inactive"
+    },
+    "name": "Al Gore Gris Gris lino M",
+    "description": "SO",
+    "reference": null,
+    "status": "inactive",
+    "calculationScale": 6,
+    "price": [
+      {
+        "idPriceList": "1",
+        "name": "General",
+        "type": "amount",
+        "price": 193277.31,
+        "currency": {
+          "code": "COP",
+          "symbol": "$"
+        },
+        "main": true,
+        "edited": false
+      }
+    ],
+    "inventory": {
+      "initialQuantity": 1,
+      "initialQuantityDate": "2021-08-03",
+      "unit": "unit",
+      "unitCost": 173949.58,
+      "availableQuantity": 0,
+      "warehouses": [
+        {
+          "name": "Calle 94",
+          "observations": "",
+          "isDefault": true,
+          "status": "active",
+          "id": "1",
+          "costCenter": null,
+          "address": "Calle 94 # 11a-80",
+          "initialQuantity": 1,
+          "availableQuantity": 0,
+          "minQuantity": null,
+          "maxQuantity": null
+        }
+      ]
+    },
+    "accounting": {
+      "inventory": {
+        "id": "5023",
+        "idParent": "5002",
+        "name": "Inventarios",
+        "text": "Inventarios",
+        "code": null,
+        "description": "",
+        "type": "asset",
+        "readOnly": false,
+        "nature": "debit",
+        "blocked": "no",
+        "status": "active",
+        "categoryRule": {
+          "id": "7",
+          "name": "Inventario",
+          "key": "INVENTORY"
+        },
+        "use": "movement",
+        "showThirdPartyBalance": true
+      },
+      "inventariablePurchase": {
+        "id": "5071",
+        "idParent": "5070",
+        "name": "Costos del inventario",
+        "text": "Costos del inventario",
+        "code": null,
+        "description": "",
+        "type": "expense",
+        "readOnly": true,
+        "nature": "debit",
+        "blocked": "no",
+        "status": "active",
+        "categoryRule": {
+          "id": "33",
+          "name": "Costo de ventas",
+          "key": "INVENTARIABLE_PURCHASES"
+        },
+        "use": "movement",
+        "showThirdPartyBalance": true
+      }
+    },
+    "tax": [
+      {
+        "id": "3",
+        "name": "IVA",
+        "percentage": "19.00",
+        "description": "",
+        "status": "active",
+        "deductible": "yes",
+        "type": "IVA",
+        "categoryFavorable": {
+          "id": "5011",
+          "idParent": "5010",
+          "name": "Impuesto a las ventas a favor",
+          "text": "Impuesto a las ventas a favor",
+          "code": null,
+          "description": "",
+          "type": "asset",
+          "readOnly": false,
+          "nature": "debit",
+          "blocked": "no",
+          "status": "active",
+          "categoryRule": {
+            "id": "44",
+            "name": "IVA descontable",
+            "key": "IVA_IN_FAVOR_COL"
+          },
+          "use": "movement",
+          "showThirdPartyBalance": true
+        },
+        "categoryToBePaid": {
+          "id": "5043",
+          "idParent": "5042",
+          "name": "Impuesto a las ventas por pagar",
+          "text": "Impuesto a las ventas por pagar",
+          "code": null,
+          "description": "",
+          "type": "liability",
+          "readOnly": false,
+          "nature": "credit",
+          "blocked": "no",
+          "status": "active",
+          "categoryRule": {
+            "id": "47",
+            "name": "IVA generado",
+            "key": "IVA_TO_PAY_COL"
+          },
+          "use": "movement",
+          "showThirdPartyBalance": true
+        },
+        "rate": null
+      }
+    ],
+    "images": [
+      {
+        "id": 607,
+        "name": "AL GORE GRIS.png",
+        "url": "https://cdn3.alegra.com/58b6f7a9a514ee30ac791ffc42de2ae736e12b3b-1628103663-AL+GORE+GRIS.png?Expires=1756329473&Signature=I2UdCdcsOdAlPviHZRomHG5PVOBgPzau0b6YMvN6j0W4jvl3mc73ONgdE57j68PomWeCLqtkhFBpCR2M2NeuezsTYCyPYce1AmlGKTIkyir1Mkz9~fNe~qc8FttyAHMOtzcGyR~cdogXUURJEyLb-t7cAQuZ4RmICxtNkGk85ifUFzZklLAcEQsV0DNE6xOSKfSDMnOhB8j24TVjlR9LSLnaTI5tql3KBAuDqH5en4LNqJkSmrjN7s6FSAzoQoujJrgYrjhvzzm1bldMlaPPNEDB-QJoL26cm~jqfChwgPAj5~l2LBI5tp9-eebNQN9lOcnVDf48aSzbOTq~PKQDEw__&Key-Pair-Id=APKAJU3VE62QBWZP27QQ",
+        "favorite": false
+      },
+      {
+        "id": 608,
+        "name": "AL GORE GRIS.png",
+        "url": "https://cdn3.alegra.com/58b6f7a9a514ee30ac791ffc42de2ae736e12b3b-1628103674-AL+GORE+GRIS.png?Expires=1756329473&Signature=SIm7VW~PjL6rCT9TmeF6ARtPbqI5xAaefr1ur9womCgCtd9-LdcY4rOurblfIilAeIWqtDKyuaMyKPiUE~YFJlGZT8jIDEkzFk2tjurKQgwaAVSPrNh5~Y87BXd-DAcikW7Yx4GGIabAeiI6usIz7uhirUZdJUrRvFowm1vPfkITeftT55rQtowUY~W8143t4zRJsm8KXghOSOQf-8S3ub-gukMXl1bgxEC-3Z-PI09ltKo2qdiZ2MASD2xW9x8IQ2VGOkPDXMV051EdOIEI7w-sfPWBNOg3Bvt~YSa7VzfKaf5r0E0TybBd5Af9FQLZC33qVyOyIx~ay6F1pg-0wg__&Key-Pair-Id=APKAJU3VE62QBWZP27QQ",
+        "favorite": true
+      }
+    ],
+    "customFields": [],
+    "productKey": null,
+    "type": "simple",
+    "itemType": null
+  },
+  {
+    "id": "732",
+    "category": {
+      "id": "5063",
+      "name": "Ventas"
+    },
+    "hasNoIvaDays": false,
+    "itemCategory": {
+      "id": 10,
+      "name": "SIENTOCHENTA",
+      "description": "",
+      "status": "inactive"
+    },
+    "name": "Al Gore Gris Gris lino S",
+    "description": "SO",
+    "reference": null,
+    "status": "inactive",
+    "calculationScale": 6,
+    "price": [
+      {
+        "idPriceList": "1",
+        "name": "General",
+        "type": "amount",
+        "price": 193277.31,
+        "currency": {
+          "code": "COP",
+          "symbol": "$"
+        },
+        "main": true,
+        "edited": false
+      }
+    ],
+    "inventory": {
+      "initialQuantity": 1,
+      "initialQuantityDate": "2021-08-03",
+      "unit": "unit",
+      "unitCost": 173949.58,
+      "availableQuantity": 0,
+      "warehouses": [
+        {
+          "name": "Calle 94",
+          "observations": "",
+          "isDefault": true,
+          "status": "active",
+          "id": "1",
+          "costCenter": null,
+          "address": "Calle 94 # 11a-80",
+          "initialQuantity": 1,
+          "availableQuantity": 0,
+          "minQuantity": null,
+          "maxQuantity": null
+        }
+      ]
+    },
+    "accounting": {
+      "inventory": {
+        "id": "5023",
+        "idParent": "5002",
+        "name": "Inventarios",
+        "text": "Inventarios",
+        "code": null,
+        "description": "",
+        "type": "asset",
+        "readOnly": false,
+        "nature": "debit",
+        "blocked": "no",
+        "status": "active",
+        "categoryRule": {
+          "id": "7",
+          "name": "Inventario",
+          "key": "INVENTORY"
+        },
+        "use": "movement",
+        "showThirdPartyBalance": true
+      },
+      "inventariablePurchase": {
+        "id": "5071",
+        "idParent": "5070",
+        "name": "Costos del inventario",
+        "text": "Costos del inventario",
+        "code": null,
+        "description": "",
+        "type": "expense",
+        "readOnly": true,
+        "nature": "debit",
+        "blocked": "no",
+        "status": "active",
+        "categoryRule": {
+          "id": "33",
+          "name": "Costo de ventas",
+          "key": "INVENTARIABLE_PURCHASES"
+        },
+        "use": "movement",
+        "showThirdPartyBalance": true
+      }
+    },
+    "tax": [
+      {
+        "id": "3",
+        "name": "IVA",
+        "percentage": "19.00",
+        "description": "",
+        "status": "active",
+        "deductible": "yes",
+        "type": "IVA",
+        "categoryFavorable": {
+          "id": "5011",
+          "idParent": "5010",
+          "name": "Impuesto a las ventas a favor",
+          "text": "Impuesto a las ventas a favor",
+          "code": null,
+          "description": "",
+          "type": "asset",
+          "readOnly": false,
+          "nature": "debit",
+          "blocked": "no",
+          "status": "active",
+          "categoryRule": {
+            "id": "44",
+            "name": "IVA descontable",
+            "key": "IVA_IN_FAVOR_COL"
+          },
+          "use": "movement",
+          "showThirdPartyBalance": true
+        },
+        "categoryToBePaid": {
+          "id": "5043",
+          "idParent": "5042",
+          "name": "Impuesto a las ventas por pagar",
+          "text": "Impuesto a las ventas por pagar",
+          "code": null,
+          "description": "",
+          "type": "liability",
+          "readOnly": false,
+          "nature": "credit",
+          "blocked": "no",
+          "status": "active",
+          "categoryRule": {
+            "id": "47",
+            "name": "IVA generado",
+            "key": "IVA_TO_PAY_COL"
+          },
+          "use": "movement",
+          "showThirdPartyBalance": true
+        },
+        "rate": null
+      }
+    ],
+    "images": [
+      {
+        "id": 632,
+        "name": "AL GORE GRIS.png",
+        "url": "https://cdn3.alegra.com/58b6f7a9a514ee30ac791ffc42de2ae736e12b3b-1628104482-AL+GORE+GRIS.png?Expires=1756329473&Signature=qqVzclGk0xoBGxGeuO8sFNzhZmYCGAYyXRmvKSEotJqbLFvMl-A84kzROCzimAICOK9qsXdGmU5YkPCsnQ8Q2QWT2qN8o09auMrPcpLS8RRdOM52iBGMu7eRiZpHKmwRtElMPMFXz9PznKGibc3WMgUYgcQbckNLJekO8HBSJvN7nR7-MrKbKRdAT9rjdqSYDwyDflw5NGDNP5Y-0qW1B9~dq6FhiVcBX~KOQa4e6A1MxdDSkgS4OZk109unUCjtIQFwSRp8G80Vjb4Mp626-LLzH1T3VJlrCYuS~l6Mq0naQTGdbcWRIgIQhp67s2794AIGzOfkisvxNYrKH0ojHQ__&Key-Pair-Id=APKAJU3VE62QBWZP27QQ",
+        "favorite": true
+      }
+    ],
+    "customFields": [],
+    "productKey": null,
+    "type": "simple",
+    "itemType": null
+  },
+  {
+    "id": "731",
+    "category": {
+      "id": "5063",
+      "name": "Ventas"
+    },
+    "hasNoIvaDays": false,
+    "itemCategory": {
+      "id": 10,
+      "name": "SIENTOCHENTA",
+      "description": "",
+      "status": "inactive"
+    },
+    "name": "Al Gore Gris Gris lino XS",
+    "description": "SO",
+    "reference": null,
+    "status": "inactive",
+    "calculationScale": 6,
+    "price": [
+      {
+        "idPriceList": "1",
+        "name": "General",
+        "type": "amount",
+        "price": 193277.31,
+        "currency": {
+          "code": "COP",
+          "symbol": "$"
+        },
+        "main": true,
+        "edited": false
+      }
+    ],
+    "inventory": {
+      "initialQuantity": 1,
+      "initialQuantityDate": "2021-08-03",
+      "unit": "unit",
+      "unitCost": 173949.58,
+      "availableQuantity": 0,
+      "warehouses": [
+        {
+          "name": "Calle 94",
+          "observations": "",
+          "isDefault": true,
+          "status": "active",
+          "id": "1",
+          "costCenter": null,
+          "address": "Calle 94 # 11a-80",
+          "initialQuantity": 1,
+          "availableQuantity": 0,
+          "minQuantity": null,
+          "maxQuantity": null
+        }
+      ]
+    },
+    "accounting": {
+      "inventory": {
+        "id": "5023",
+        "idParent": "5002",
+        "name": "Inventarios",
+        "text": "Inventarios",
+        "code": null,
+        "description": "",
+        "type": "asset",
+        "readOnly": false,
+        "nature": "debit",
+        "blocked": "no",
+        "status": "active",
+        "categoryRule": {
+          "id": "7",
+          "name": "Inventario",
+          "key": "INVENTORY"
+        },
+        "use": "movement",
+        "showThirdPartyBalance": true
+      },
+      "inventariablePurchase": {
+        "id": "5071",
+        "idParent": "5070",
+        "name": "Costos del inventario",
+        "text": "Costos del inventario",
+        "code": null,
+        "description": "",
+        "type": "expense",
+        "readOnly": true,
+        "nature": "debit",
+        "blocked": "no",
+        "status": "active",
+        "categoryRule": {
+          "id": "33",
+          "name": "Costo de ventas",
+          "key": "INVENTARIABLE_PURCHASES"
+        },
+        "use": "movement",
+        "showThirdPartyBalance": true
+      }
+    },
+    "tax": [
+      {
+        "id": "3",
+        "name": "IVA",
+        "percentage": "19.00",
+        "description": "",
+        "status": "active",
+        "deductible": "yes",
+        "type": "IVA",
+        "categoryFavorable": {
+          "id": "5011",
+          "idParent": "5010",
+          "name": "Impuesto a las ventas a favor",
+          "text": "Impuesto a las ventas a favor",
+          "code": null,
+          "description": "",
+          "type": "asset",
+          "readOnly": false,
+          "nature": "debit",
+          "blocked": "no",
+          "status": "active",
+          "categoryRule": {
+            "id": "44",
+            "name": "IVA descontable",
+            "key": "IVA_IN_FAVOR_COL"
+          },
+          "use": "movement",
+          "showThirdPartyBalance": true
+        },
+        "categoryToBePaid": {
+          "id": "5043",
+          "idParent": "5042",
+          "name": "Impuesto a las ventas por pagar",
+          "text": "Impuesto a las ventas por pagar",
+          "code": null,
+          "description": "",
+          "type": "liability",
+          "readOnly": false,
+          "nature": "credit",
+          "blocked": "no",
+          "status": "active",
+          "categoryRule": {
+            "id": "47",
+            "name": "IVA generado",
+            "key": "IVA_TO_PAY_COL"
+          },
+          "use": "movement",
+          "showThirdPartyBalance": true
+        },
+        "rate": null
+      }
+    ],
+    "images": [
+      {
+        "id": 633,
+        "name": "AL GORE GRIS.png",
+        "url": "https://cdn3.alegra.com/58b6f7a9a514ee30ac791ffc42de2ae736e12b3b-1628104498-AL+GORE+GRIS.png?Expires=1756329473&Signature=Ybhn72FBj3oijDLDoJt4zXMUUW0Mn8enKhJoce~aN-OzQ5bxHOAkC8ldj~Rtl4eDIijtl61gJ2bWYjKWh2EMlWpg9vpNLFv7mrEuFygHiGBWv3boN8FtlQ2k0nvfOJGbozdX756OcoPmjb6OdRm47iiz8lDXI63aihMwL~eR4TX33y5Z4W7LVXv6M8ncZ6jFsZ3ZokWZWPn1-i6b-dGU0IbuSdAYQ34DNHPuuOLm75xoBvkb4ACdTMtmFP11RRGAWqPmt3-ezo6vRmOkOVwiHQKAYBUt0nWdWbZpjQ1Zg85KJukrT2f8BLKJwokIldS-llzzlMSYf2NRC7YR4qKn9g__&Key-Pair-Id=APKAJU3VE62QBWZP27QQ",
+        "favorite": false
+      },
+      {
+        "id": 634,
+        "name": "AL GORE GRIS.png",
+        "url": "https://cdn3.alegra.com/58b6f7a9a514ee30ac791ffc42de2ae736e12b3b-1628104527-AL+GORE+GRIS.png?Expires=1756329473&Signature=GZLZFZS46nxGYsrH2pVAEIQbMHk~GkxS37UbVrgiOzITrKNFcosLzKj6Sejx07oM-Hu2gUXk6s1JasbkIwGQvJ2YeihIPuX7H-0fUu1g55IoXDkVfBB1TvT7-0daHeSi8E8h5QcBPILebfKd8gKGDMqOI0bpTQyY6oFXW1QLrNXnnP2N9f21DbZPmHraDv0YYiptAHOdZ4NW~lEs56ojolSCavUvs0UjLXHOJ5rBCpI4tDvTK4aFCh4QLUPjtK3C9EPikMNhdnb1fpcWdJ5Tl-6Yp9xCPeuNEZ5mS4QznZMewrdh5Cmh8h81OEOcSwI3H2h0~JTWsxRm5wpnG9~adQ__&Key-Pair-Id=APKAJU3VE62QBWZP27QQ",
+        "favorite": true
+      }
+    ],
+    "customFields": [],
+    "productKey": null,
+    "type": "simple",
+    "itemType": null
+  },
+  {
+    "id": "739",
+    "category": {
+      "id": "5063",
+      "name": "Ventas"
+    },
+    "hasNoIvaDays": false,
+    "itemCategory": {
+      "id": 10,
+      "name": "SIENTOCHENTA",
+      "description": "",
+      "status": "inactive"
+    },
+    "name": "Alexander Crudo Crudo M",
+    "description": "SO",
+    "reference": null,
+    "status": "inactive",
+    "calculationScale": 6,
+    "price": [
+      {
+        "idPriceList": "1",
+        "name": "General",
+        "type": "amount",
+        "price": 92436.97,
+        "currency": {
+          "code": "COP",
+          "symbol": "$"
+        },
+        "main": true,
+        "edited": false
+      }
+    ],
+    "inventory": {
+      "initialQuantity": 1,
+      "initialQuantityDate": "2021-08-03",
+      "unit": "unit",
+      "unitCost": 83193.28,
+      "availableQuantity": 0,
+      "warehouses": [
+        {
+          "name": "Calle 94",
+          "observations": "",
+          "isDefault": true,
+          "status": "active",
+          "id": "1",
+          "costCenter": null,
+          "address": "Calle 94 # 11a-80",
+          "initialQuantity": 1,
+          "availableQuantity": 0,
+          "minQuantity": null,
+          "maxQuantity": null
+        }
+      ]
+    },
+    "accounting": {
+      "inventory": {
+        "id": "5023",
+        "idParent": "5002",
+        "name": "Inventarios",
+        "text": "Inventarios",
+        "code": null,
+        "description": "",
+        "type": "asset",
+        "readOnly": false,
+        "nature": "debit",
+        "blocked": "no",
+        "status": "active",
+        "categoryRule": {
+          "id": "7",
+          "name": "Inventario",
+          "key": "INVENTORY"
+        },
+        "use": "movement",
+        "showThirdPartyBalance": true
+      },
+      "inventariablePurchase": {
+        "id": "5071",
+        "idParent": "5070",
+        "name": "Costos del inventario",
+        "text": "Costos del inventario",
+        "code": null,
+        "description": "",
+        "type": "expense",
+        "readOnly": true,
+        "nature": "debit",
+        "blocked": "no",
+        "status": "active",
+        "categoryRule": {
+          "id": "33",
+          "name": "Costo de ventas",
+          "key": "INVENTARIABLE_PURCHASES"
+        },
+        "use": "movement",
+        "showThirdPartyBalance": true
+      }
+    },
+    "tax": [
+      {
+        "id": "3",
+        "name": "IVA",
+        "percentage": "19.00",
+        "description": "",
+        "status": "active",
+        "deductible": "yes",
+        "type": "IVA",
+        "categoryFavorable": {
+          "id": "5011",
+          "idParent": "5010",
+          "name": "Impuesto a las ventas a favor",
+          "text": "Impuesto a las ventas a favor",
+          "code": null,
+          "description": "",
+          "type": "asset",
+          "readOnly": false,
+          "nature": "debit",
+          "blocked": "no",
+          "status": "active",
+          "categoryRule": {
+            "id": "44",
+            "name": "IVA descontable",
+            "key": "IVA_IN_FAVOR_COL"
+          },
+          "use": "movement",
+          "showThirdPartyBalance": true
+        },
+        "categoryToBePaid": {
+          "id": "5043",
+          "idParent": "5042",
+          "name": "Impuesto a las ventas por pagar",
+          "text": "Impuesto a las ventas por pagar",
+          "code": null,
+          "description": "",
+          "type": "liability",
+          "readOnly": false,
+          "nature": "credit",
+          "blocked": "no",
+          "status": "active",
+          "categoryRule": {
+            "id": "47",
+            "name": "IVA generado",
+            "key": "IVA_TO_PAY_COL"
+          },
+          "use": "movement",
+          "showThirdPartyBalance": true
+        },
+        "rate": null
+      }
+    ],
+    "images": [
+      {
+        "id": 609,
+        "name": "ALEXANDER CRUDO.png",
+        "url": "https://cdn3.alegra.com/58b6f7a9a514ee30ac791ffc42de2ae736e12b3b-1628103697-ALEXANDER+CRUDO.png?Expires=1756329473&Signature=OlDSiSjogv9bJ0FbLZEcaJNNeJ9b5Kze9LXx7yT3cfKo8Gzm8aUvQwCPNem-CuRjsWhlS1RFGcKzuDvSnqbmWsbjMadllaug4FwFZ~Jiml62A7GpP-AciaEn6P2YjHT7y76M45cGhZ6NeD0qnxWyOstRPjZqXz97~LJSL~0vFHVreZfIqBPCGEwmxNYy6F8msveglzw~ayFKCxI6xxwlDGWP8JxONtxb59WfbwU1MEHXjmvrz8wCuuBND6QsAFiK-A4Tx24P5hvKGC1vmpMCSAl0oHF-yz4ez8Gd3j85~CtIZpCa7QsIh7NJPYMbyy7Ye17UReCd2oIPnFwVixF6bQ__&Key-Pair-Id=APKAJU3VE62QBWZP27QQ",
+        "favorite": true
+      }
+    ],
+    "customFields": [],
+    "productKey": null,
+    "type": "simple",
+    "itemType": null
+  },
+  {
+    "id": "738",
+    "category": {
+      "id": "5063",
+      "name": "Ventas"
+    },
+    "hasNoIvaDays": false,
+    "itemCategory": {
+      "id": 10,
+      "name": "SIENTOCHENTA",
+      "description": "",
+      "status": "inactive"
+    },
+    "name": "Alexander Crudo Crudo S",
+    "description": "SO",
+    "reference": null,
+    "status": "inactive",
+    "calculationScale": 6,
+    "price": [
+      {
+        "idPriceList": "1",
+        "name": "General",
+        "type": "amount",
+        "price": 92436.97,
+        "currency": {
+          "code": "COP",
+          "symbol": "$"
+        },
+        "main": true,
+        "edited": false
+      }
+    ],
+    "inventory": {
+      "initialQuantity": 1,
+      "initialQuantityDate": "2021-08-03",
+      "unit": "unit",
+      "unitCost": 83193.28,
+      "availableQuantity": 0,
+      "warehouses": [
+        {
+          "name": "Calle 94",
+          "observations": "",
+          "isDefault": true,
+          "status": "active",
+          "id": "1",
+          "costCenter": null,
+          "address": "Calle 94 # 11a-80",
+          "initialQuantity": 1,
+          "availableQuantity": 0,
+          "minQuantity": null,
+          "maxQuantity": null
+        }
+      ]
+    },
+    "accounting": {
+      "inventory": {
+        "id": "5023",
+        "idParent": "5002",
+        "name": "Inventarios",
+        "text": "Inventarios",
+        "code": null,
+        "description": "",
+        "type": "asset",
+        "readOnly": false,
+        "nature": "debit",
+        "blocked": "no",
+        "status": "active",
+        "categoryRule": {
+          "id": "7",
+          "name": "Inventario",
+          "key": "INVENTORY"
+        },
+        "use": "movement",
+        "showThirdPartyBalance": true
+      },
+      "inventariablePurchase": {
+        "id": "5071",
+        "idParent": "5070",
+        "name": "Costos del inventario",
+        "text": "Costos del inventario",
+        "code": null,
+        "description": "",
+        "type": "expense",
+        "readOnly": true,
+        "nature": "debit",
+        "blocked": "no",
+        "status": "active",
+        "categoryRule": {
+          "id": "33",
+          "name": "Costo de ventas",
+          "key": "INVENTARIABLE_PURCHASES"
+        },
+        "use": "movement",
+        "showThirdPartyBalance": true
+      }
+    },
+    "tax": [
+      {
+        "id": "3",
+        "name": "IVA",
+        "percentage": "19.00",
+        "description": "",
+        "status": "active",
+        "deductible": "yes",
+        "type": "IVA",
+        "categoryFavorable": {
+          "id": "5011",
+          "idParent": "5010",
+          "name": "Impuesto a las ventas a favor",
+          "text": "Impuesto a las ventas a favor",
+          "code": null,
+          "description": "",
+          "type": "asset",
+          "readOnly": false,
+          "nature": "debit",
+          "blocked": "no",
+          "status": "active",
+          "categoryRule": {
+            "id": "44",
+            "name": "IVA descontable",
+            "key": "IVA_IN_FAVOR_COL"
+          },
+          "use": "movement",
+          "showThirdPartyBalance": true
+        },
+        "categoryToBePaid": {
+          "id": "5043",
+          "idParent": "5042",
+          "name": "Impuesto a las ventas por pagar",
+          "text": "Impuesto a las ventas por pagar",
+          "code": null,
+          "description": "",
+          "type": "liability",
+          "readOnly": false,
+          "nature": "credit",
+          "blocked": "no",
+          "status": "active",
+          "categoryRule": {
+            "id": "47",
+            "name": "IVA generado",
+            "key": "IVA_TO_PAY_COL"
+          },
+          "use": "movement",
+          "showThirdPartyBalance": true
+        },
+        "rate": null
+      }
+    ],
+    "images": [
+      {
+        "id": 636,
+        "name": "ALEXANDER CRUDO.png",
+        "url": "https://cdn3.alegra.com/58b6f7a9a514ee30ac791ffc42de2ae736e12b3b-1628104627-ALEXANDER+CRUDO.png?Expires=1756329473&Signature=mMXbe3MRX4tM6ravCjbcTZEePiNvTgFSSN7hsn7IbxswuLNBdZZqGs1lzhe6yw53k5LGT4ki8-9zG14n2NnQ10SqMPQudXJbMnx28B4PV9oKl0bs8P2xI~RjcTj2PnRJMjrbQyPJ9n9rP1blrxfpWso8Nu3WgFW5PAh7SVvsfBLvWHpZK9LblFLqTkkbZnlf5kLHLIHXtL2KNpGFY4URd5boS5wcFcax7vIVKtfuobQPpVg1Nhgm7L75sOraTTdYPrn816GykDC69Oa7lA4INlsWacK5S224tbEeWdZ4t5CMKXIuMkVzNf91FuH~XlvZDgKtiXPFqDF-9P6ORxQVXw__&Key-Pair-Id=APKAJU3VE62QBWZP27QQ",
+        "favorite": true
+      }
+    ],
+    "customFields": [],
+    "productKey": null,
+    "type": "simple",
+    "itemType": null
+  },
+  {
+    "id": "737",
+    "category": {
+      "id": "5063",
+      "name": "Ventas"
+    },
+    "hasNoIvaDays": false,
+    "itemCategory": {
+      "id": 10,
+      "name": "SIENTOCHENTA",
+      "description": "",
+      "status": "inactive"
+    },
+    "name": "Alexander Gris Gris L",
+    "description": "SO",
+    "reference": null,
+    "status": "inactive",
+    "calculationScale": 6,
+    "price": [
+      {
+        "idPriceList": "1",
+        "name": "General",
+        "type": "amount",
+        "price": 92436.97,
+        "currency": {
+          "code": "COP",
+          "symbol": "$"
+        },
+        "main": true,
+        "edited": false
+      }
+    ],
+    "inventory": {
+      "initialQuantity": 1,
+      "initialQuantityDate": "2021-08-03",
+      "unit": "unit",
+      "unitCost": 83193.28,
+      "availableQuantity": 0,
+      "warehouses": [
+        {
+          "name": "Calle 94",
+          "observations": "",
+          "isDefault": true,
+          "status": "active",
+          "id": "1",
+          "costCenter": null,
+          "address": "Calle 94 # 11a-80",
+          "initialQuantity": 1,
+          "availableQuantity": 0,
+          "minQuantity": null,
+          "maxQuantity": null
+        }
+      ]
+    },
+    "accounting": {
+      "inventory": {
+        "id": "5023",
+        "idParent": "5002",
+        "name": "Inventarios",
+        "text": "Inventarios",
+        "code": null,
+        "description": "",
+        "type": "asset",
+        "readOnly": false,
+        "nature": "debit",
+        "blocked": "no",
+        "status": "active",
+        "categoryRule": {
+          "id": "7",
+          "name": "Inventario",
+          "key": "INVENTORY"
+        },
+        "use": "movement",
+        "showThirdPartyBalance": true
+      },
+      "inventariablePurchase": {
+        "id": "5071",
+        "idParent": "5070",
+        "name": "Costos del inventario",
+        "text": "Costos del inventario",
+        "code": null,
+        "description": "",
+        "type": "expense",
+        "readOnly": true,
+        "nature": "debit",
+        "blocked": "no",
+        "status": "active",
+        "categoryRule": {
+          "id": "33",
+          "name": "Costo de ventas",
+          "key": "INVENTARIABLE_PURCHASES"
+        },
+        "use": "movement",
+        "showThirdPartyBalance": true
+      }
+    },
+    "tax": [
+      {
+        "id": "3",
+        "name": "IVA",
+        "percentage": "19.00",
+        "description": "",
+        "status": "active",
+        "deductible": "yes",
+        "type": "IVA",
+        "categoryFavorable": {
+          "id": "5011",
+          "idParent": "5010",
+          "name": "Impuesto a las ventas a favor",
+          "text": "Impuesto a las ventas a favor",
+          "code": null,
+          "description": "",
+          "type": "asset",
+          "readOnly": false,
+          "nature": "debit",
+          "blocked": "no",
+          "status": "active",
+          "categoryRule": {
+            "id": "44",
+            "name": "IVA descontable",
+            "key": "IVA_IN_FAVOR_COL"
+          },
+          "use": "movement",
+          "showThirdPartyBalance": true
+        },
+        "categoryToBePaid": {
+          "id": "5043",
+          "idParent": "5042",
+          "name": "Impuesto a las ventas por pagar",
+          "text": "Impuesto a las ventas por pagar",
+          "code": null,
+          "description": "",
+          "type": "liability",
+          "readOnly": false,
+          "nature": "credit",
+          "blocked": "no",
+          "status": "active",
+          "categoryRule": {
+            "id": "47",
+            "name": "IVA generado",
+            "key": "IVA_TO_PAY_COL"
+          },
+          "use": "movement",
+          "showThirdPartyBalance": true
+        },
+        "rate": null
+      }
+    ],
+    "images": [
+      {
+        "id": 610,
+        "name": "ALEXANDER GRIS.png",
+        "url": "https://cdn3.alegra.com/58b6f7a9a514ee30ac791ffc42de2ae736e12b3b-1628103714-ALEXANDER+GRIS.png?Expires=1756329473&Signature=qUpYePt75qg-wmv84fTDfora7PSkVqgFV1~KVAv8kgs7G7hhqnRfVeIcnREwT5uzo4capacgf6EgfbD-XNib57~jVB71OkqlO0-127tj9nyId8QlR8Gm5ynb9dV4rJVbL~Tc1btO~-oVT8-KJBupH3lHULqzMFfz3~VKBIEPhoW1W3PRIBYLBDxMFo1RrLUSyoEX2U~omBEub4pfr-I-z7zuhSkvsD7vv7FsDQ5K0amPQnlgipatqo7UjLTCsksE3N14FRHv9ZokYL30~MRhOO-hufpk3196W9Wo4J2aSobU7MHFpjOHOHmjJCb-hg2egDNvCxaMxlFRBk~WwTILcA__&Key-Pair-Id=APKAJU3VE62QBWZP27QQ",
+        "favorite": true
+      }
+    ],
+    "customFields": [],
+    "productKey": null,
+    "type": "simple",
+    "itemType": null
+  },
+  {
+    "id": "736",
+    "category": {
+      "id": "5063",
+      "name": "Ventas"
+    },
+    "hasNoIvaDays": false,
+    "itemCategory": {
+      "id": 10,
+      "name": "SIENTOCHENTA",
+      "description": "",
+      "status": "inactive"
+    },
+    "name": "Alexander Gris Gris M",
+    "description": "SO",
+    "reference": null,
+    "status": "inactive",
+    "calculationScale": 6,
+    "price": [
+      {
+        "idPriceList": "1",
+        "name": "General",
+        "type": "amount",
+        "price": 92436.97,
+        "currency": {
+          "code": "COP",
+          "symbol": "$"
+        },
+        "main": true,
+        "edited": false
+      }
+    ],
+    "inventory": {
+      "initialQuantity": 1,
+      "initialQuantityDate": "2021-08-03",
+      "unit": "unit",
+      "unitCost": 83193.28,
+      "availableQuantity": 0,
+      "warehouses": [
+        {
+          "name": "Calle 94",
+          "observations": "",
+          "isDefault": true,
+          "status": "active",
+          "id": "1",
+          "costCenter": null,
+          "address": "Calle 94 # 11a-80",
+          "initialQuantity": 1,
+          "availableQuantity": 0,
+          "minQuantity": null,
+          "maxQuantity": null
+        }
+      ]
+    },
+    "accounting": {
+      "inventory": {
+        "id": "5023",
+        "idParent": "5002",
+        "name": "Inventarios",
+        "text": "Inventarios",
+        "code": null,
+        "description": "",
+        "type": "asset",
+        "readOnly": false,
+        "nature": "debit",
+        "blocked": "no",
+        "status": "active",
+        "categoryRule": {
+          "id": "7",
+          "name": "Inventario",
+          "key": "INVENTORY"
+        },
+        "use": "movement",
+        "showThirdPartyBalance": true
+      },
+      "inventariablePurchase": {
+        "id": "5071",
+        "idParent": "5070",
+        "name": "Costos del inventario",
+        "text": "Costos del inventario",
+        "code": null,
+        "description": "",
+        "type": "expense",
+        "readOnly": true,
+        "nature": "debit",
+        "blocked": "no",
+        "status": "active",
+        "categoryRule": {
+          "id": "33",
+          "name": "Costo de ventas",
+          "key": "INVENTARIABLE_PURCHASES"
+        },
+        "use": "movement",
+        "showThirdPartyBalance": true
+      }
+    },
+    "tax": [
+      {
+        "id": "3",
+        "name": "IVA",
+        "percentage": "19.00",
+        "description": "",
+        "status": "active",
+        "deductible": "yes",
+        "type": "IVA",
+        "categoryFavorable": {
+          "id": "5011",
+          "idParent": "5010",
+          "name": "Impuesto a las ventas a favor",
+          "text": "Impuesto a las ventas a favor",
+          "code": null,
+          "description": "",
+          "type": "asset",
+          "readOnly": false,
+          "nature": "debit",
+          "blocked": "no",
+          "status": "active",
+          "categoryRule": {
+            "id": "44",
+            "name": "IVA descontable",
+            "key": "IVA_IN_FAVOR_COL"
+          },
+          "use": "movement",
+          "showThirdPartyBalance": true
+        },
+        "categoryToBePaid": {
+          "id": "5043",
+          "idParent": "5042",
+          "name": "Impuesto a las ventas por pagar",
+          "text": "Impuesto a las ventas por pagar",
+          "code": null,
+          "description": "",
+          "type": "liability",
+          "readOnly": false,
+          "nature": "credit",
+          "blocked": "no",
+          "status": "active",
+          "categoryRule": {
+            "id": "47",
+            "name": "IVA generado",
+            "key": "IVA_TO_PAY_COL"
+          },
+          "use": "movement",
+          "showThirdPartyBalance": true
+        },
+        "rate": null
+      }
+    ],
+    "images": [
+      {
+        "id": 637,
+        "name": "ALEXANDER GRIS.png",
+        "url": "https://cdn3.alegra.com/58b6f7a9a514ee30ac791ffc42de2ae736e12b3b-1628104643-ALEXANDER+GRIS.png?Expires=1756329473&Signature=HDgv6rR6Fgc9hl5QId-dMWOmUr0L1sZiE2tXSiWz3Uji3CwmHsyntX4kVAilIj4hTtiYD8LTGV~QqPy2LJEnHliJ29T7EhDvt2W~JQbvayHTfYUI8Wx61KVQErPozZjHQkjnrU~y2s1Ib40b1iMfOEyVEa8gkalu6mIFhc8PWtQUHHXpEW37NPJHUxUcR02Ejb5JGf7-LnQTMOMpJjymFWMShMjYzc7TKxiwwYQbqPiFMJG5gikueKnE0UWzy8rPHBcNH48j1bH1Ya4fX5u9xB0Iz6QY2sRJtfxoxRvANHl1HlnOfwLcAYfQuGbpWn4nZc1VpJwXIz6VJGm9HkORvw__&Key-Pair-Id=APKAJU3VE62QBWZP27QQ",
+        "favorite": true
+      }
+    ],
+    "customFields": [],
+    "productKey": null,
+    "type": "simple",
+    "itemType": null
+  },
+  {
+    "id": "735",
+    "category": {
+      "id": "5063",
+      "name": "Ventas"
+    },
+    "hasNoIvaDays": false,
+    "itemCategory": {
+      "id": 10,
+      "name": "SIENTOCHENTA",
+      "description": "",
+      "status": "inactive"
+    },
+    "name": "Alexander Vino Vino/jaspe M",
+    "description": "SO",
+    "reference": null,
+    "status": "inactive",
+    "calculationScale": 6,
+    "price": [
+      {
+        "idPriceList": "1",
+        "name": "General",
+        "type": "amount",
+        "price": 92436.97,
+        "currency": {
+          "code": "COP",
+          "symbol": "$"
+        },
+        "main": true,
+        "edited": false
+      }
+    ],
+    "inventory": {
+      "initialQuantity": 1,
+      "initialQuantityDate": "2021-08-03",
+      "unit": "unit",
+      "unitCost": 83193.28,
+      "availableQuantity": 0,
+      "warehouses": [
+        {
+          "name": "Calle 94",
+          "observations": "",
+          "isDefault": true,
+          "status": "active",
+          "id": "1",
+          "costCenter": null,
+          "address": "Calle 94 # 11a-80",
+          "initialQuantity": 1,
+          "availableQuantity": 0,
+          "minQuantity": null,
+          "maxQuantity": null
+        }
+      ]
+    },
+    "accounting": {
+      "inventory": {
+        "id": "5023",
+        "idParent": "5002",
+        "name": "Inventarios",
+        "text": "Inventarios",
+        "code": null,
+        "description": "",
+        "type": "asset",
+        "readOnly": false,
+        "nature": "debit",
+        "blocked": "no",
+        "status": "active",
+        "categoryRule": {
+          "id": "7",
+          "name": "Inventario",
+          "key": "INVENTORY"
+        },
+        "use": "movement",
+        "showThirdPartyBalance": true
+      },
+      "inventariablePurchase": {
+        "id": "5071",
+        "idParent": "5070",
+        "name": "Costos del inventario",
+        "text": "Costos del inventario",
+        "code": null,
+        "description": "",
+        "type": "expense",
+        "readOnly": true,
+        "nature": "debit",
+        "blocked": "no",
+        "status": "active",
+        "categoryRule": {
+          "id": "33",
+          "name": "Costo de ventas",
+          "key": "INVENTARIABLE_PURCHASES"
+        },
+        "use": "movement",
+        "showThirdPartyBalance": true
+      }
+    },
+    "tax": [
+      {
+        "id": "3",
+        "name": "IVA",
+        "percentage": "19.00",
+        "description": "",
+        "status": "active",
+        "deductible": "yes",
+        "type": "IVA",
+        "categoryFavorable": {
+          "id": "5011",
+          "idParent": "5010",
+          "name": "Impuesto a las ventas a favor",
+          "text": "Impuesto a las ventas a favor",
+          "code": null,
+          "description": "",
+          "type": "asset",
+          "readOnly": false,
+          "nature": "debit",
+          "blocked": "no",
+          "status": "active",
+          "categoryRule": {
+            "id": "44",
+            "name": "IVA descontable",
+            "key": "IVA_IN_FAVOR_COL"
+          },
+          "use": "movement",
+          "showThirdPartyBalance": true
+        },
+        "categoryToBePaid": {
+          "id": "5043",
+          "idParent": "5042",
+          "name": "Impuesto a las ventas por pagar",
+          "text": "Impuesto a las ventas por pagar",
+          "code": null,
+          "description": "",
+          "type": "liability",
+          "readOnly": false,
+          "nature": "credit",
+          "blocked": "no",
+          "status": "active",
+          "categoryRule": {
+            "id": "47",
+            "name": "IVA generado",
+            "key": "IVA_TO_PAY_COL"
+          },
+          "use": "movement",
+          "showThirdPartyBalance": true
+        },
+        "rate": null
+      }
+    ],
+    "images": [
+      {
+        "id": 611,
+        "name": "ALEXANDER VINO.png",
+        "url": "https://cdn3.alegra.com/58b6f7a9a514ee30ac791ffc42de2ae736e12b3b-1628103728-ALEXANDER+VINO.png?Expires=1756329473&Signature=BZGG2EXbWBvpSfrSCGzYKJ5Qc8kvxZKVMAbe~3gvqvkPX~x-Cr7W1QyosbGzSArJH37Zi2NVNB1B2ngUkK5kzMzvsxy6g~-1CGhuV4flwECNDCpST~sgZbUjaMg8v5VEFMELLlwB4aqnBENkh9b~iCoQL6yQXbTvi5u~1G2mdBswIkRXjX~AAAyYYDk8h0~DR24p7ie0VpafiDn7RSIcf01lcALCn17tAb9KpGMNw~~EjtMu7nDmpJc9Jg6K3yro5~qpFfhQ5~b8wNnwdNphSfuucpkkgmi3doUJPxiqMm7Px1MHb8NOS3H77u6zaY53T5hdRn6vkW7WfThl~Hxo-g__&Key-Pair-Id=APKAJU3VE62QBWZP27QQ",
+        "favorite": true
+      }
+    ],
+    "customFields": [],
+    "productKey": null,
+    "type": "simple",
+    "itemType": null
+  },
+  {
+    "id": "734",
+    "category": {
+      "id": "5063",
+      "name": "Ventas"
+    },
+    "hasNoIvaDays": false,
+    "itemCategory": {
+      "id": 10,
+      "name": "SIENTOCHENTA",
+      "description": "",
+      "status": "inactive"
+    },
+    "name": "Alexander Vino Vino/jaspe S",
+    "description": "SO",
+    "reference": null,
+    "status": "inactive",
+    "calculationScale": 6,
+    "price": [
+      {
+        "idPriceList": "1",
+        "name": "General",
+        "type": "amount",
+        "price": 92436.97,
+        "currency": {
+          "code": "COP",
+          "symbol": "$"
+        },
+        "main": true,
+        "edited": false
+      }
+    ],
+    "inventory": {
+      "initialQuantity": 1,
+      "initialQuantityDate": "2021-08-03",
+      "unit": "unit",
+      "unitCost": 83193.28,
+      "availableQuantity": 0,
+      "warehouses": [
+        {
+          "name": "Calle 94",
+          "observations": "",
+          "isDefault": true,
+          "status": "active",
+          "id": "1",
+          "costCenter": null,
+          "address": "Calle 94 # 11a-80",
+          "initialQuantity": 1,
+          "availableQuantity": 0,
+          "minQuantity": null,
+          "maxQuantity": null
+        }
+      ]
+    },
+    "accounting": {
+      "inventory": {
+        "id": "5023",
+        "idParent": "5002",
+        "name": "Inventarios",
+        "text": "Inventarios",
+        "code": null,
+        "description": "",
+        "type": "asset",
+        "readOnly": false,
+        "nature": "debit",
+        "blocked": "no",
+        "status": "active",
+        "categoryRule": {
+          "id": "7",
+          "name": "Inventario",
+          "key": "INVENTORY"
+        },
+        "use": "movement",
+        "showThirdPartyBalance": true
+      },
+      "inventariablePurchase": {
+        "id": "5071",
+        "idParent": "5070",
+        "name": "Costos del inventario",
+        "text": "Costos del inventario",
+        "code": null,
+        "description": "",
+        "type": "expense",
+        "readOnly": true,
+        "nature": "debit",
+        "blocked": "no",
+        "status": "active",
+        "categoryRule": {
+          "id": "33",
+          "name": "Costo de ventas",
+          "key": "INVENTARIABLE_PURCHASES"
+        },
+        "use": "movement",
+        "showThirdPartyBalance": true
+      }
+    },
+    "tax": [
+      {
+        "id": "3",
+        "name": "IVA",
+        "percentage": "19.00",
+        "description": "",
+        "status": "active",
+        "deductible": "yes",
+        "type": "IVA",
+        "categoryFavorable": {
+          "id": "5011",
+          "idParent": "5010",
+          "name": "Impuesto a las ventas a favor",
+          "text": "Impuesto a las ventas a favor",
+          "code": null,
+          "description": "",
+          "type": "asset",
+          "readOnly": false,
+          "nature": "debit",
+          "blocked": "no",
+          "status": "active",
+          "categoryRule": {
+            "id": "44",
+            "name": "IVA descontable",
+            "key": "IVA_IN_FAVOR_COL"
+          },
+          "use": "movement",
+          "showThirdPartyBalance": true
+        },
+        "categoryToBePaid": {
+          "id": "5043",
+          "idParent": "5042",
+          "name": "Impuesto a las ventas por pagar",
+          "text": "Impuesto a las ventas por pagar",
+          "code": null,
+          "description": "",
+          "type": "liability",
+          "readOnly": false,
+          "nature": "credit",
+          "blocked": "no",
+          "status": "active",
+          "categoryRule": {
+            "id": "47",
+            "name": "IVA generado",
+            "key": "IVA_TO_PAY_COL"
+          },
+          "use": "movement",
+          "showThirdPartyBalance": true
+        },
+        "rate": null
+      }
+    ],
+    "images": [
+      {
+        "id": 635,
+        "name": "ALEXANDER VINO.png",
+        "url": "https://cdn3.alegra.com/58b6f7a9a514ee30ac791ffc42de2ae736e12b3b-1628104571-ALEXANDER+VINO.png?Expires=1756329473&Signature=QzpyN3Nqn02byBTJt3Pe~jOF~1VK2K4OUi~N0ZU8C9yWGcawbZwQmMpTnmMLFH-H~PtZ12c7-51ntHa2ZqZWhgj9N6A0MGI1xJ~RqRTY~hFtOF-vJx4oi-fUoJLTF0iijsvkSYl-tnNb9hj0kDtr1leU0RqL2lEJAopkTt-VdkYhBjOfyMdv8AFob9hrF6RIsbwvhIADXaUmxtWRi81cukOTD9K0EsTrNHEgY99qSatIq1NkyvdB0tbeol1aAvw6Lc~c7uN07GlU-ZTbS44AnoZZ24UK7P8Epm7fNzkbDina1BXNfoBoI0XxxOv-48n4Bb1HrtNBuXuZWUE7m8HBqg__&Key-Pair-Id=APKAJU3VE62QBWZP27QQ",
+        "favorite": true
+      }
+    ],
+    "customFields": [],
+    "productKey": null,
+    "type": "simple",
+    "itemType": null
+  },
+  {
+    "id": "2255",
+    "category": {
+      "id": "5063",
+      "name": "Ventas"
+    },
+    "hasNoIvaDays": false,
+    "name": "ALFAJORES VENTURA CAJA X 6",
+    "description": "VENTURA",
+    "reference": null,
+    "status": "inactive",
+    "calculationScale": 2,
+    "price": [
+      {
+        "idPriceList": "1",
+        "name": "General",
+        "type": "amount",
+        "price": 29411.77,
+        "currency": {
+          "code": "COP",
+          "symbol": "$"
+        },
+        "main": true,
+        "edited": false
+      }
+    ],
+    "inventory": {
+      "initialQuantity": 20,
+      "initialQuantityDate": "2023-06-02",
+      "unit": "unit",
+      "unitCost": 25000,
+      "availableQuantity": 0,
+      "warehouses": [
+        {
+          "name": "Calle 81",
+          "observations": "",
+          "isDefault": false,
+          "status": "active",
+          "id": "11",
+          "costCenter": null,
+          "address": "Calle 81 #11-54",
+          "initialQuantity": 20,
+          "availableQuantity": 0,
+          "minQuantity": null,
+          "maxQuantity": null
+        }
+      ]
+    },
+    "accounting": {
+      "inventory": {
+        "id": "5023",
+        "idParent": "5002",
+        "name": "Inventarios",
+        "text": "Inventarios",
+        "code": null,
+        "description": "",
+        "type": "asset",
+        "readOnly": false,
+        "nature": "debit",
+        "blocked": "no",
+        "status": "active",
+        "categoryRule": {
+          "id": "7",
+          "name": "Inventario",
+          "key": "INVENTORY"
+        },
+        "use": "movement",
+        "showThirdPartyBalance": true
+      },
+      "inventariablePurchase": {
+        "id": "5071",
+        "idParent": "5070",
+        "name": "Costos del inventario",
+        "text": "Costos del inventario",
+        "code": null,
+        "description": "",
+        "type": "expense",
+        "readOnly": true,
+        "nature": "debit",
+        "blocked": "no",
+        "status": "active",
+        "categoryRule": {
+          "id": "33",
+          "name": "Costo de ventas",
+          "key": "INVENTARIABLE_PURCHASES"
+        },
+        "use": "movement",
+        "showThirdPartyBalance": true
+      }
+    },
+    "tax": [
+      {
+        "id": "3",
+        "name": "IVA",
+        "percentage": "19.00",
+        "description": "",
+        "status": "active",
+        "deductible": "yes",
+        "type": "IVA",
+        "categoryFavorable": {
+          "id": "5011",
+          "idParent": "5010",
+          "name": "Impuesto a las ventas a favor",
+          "text": "Impuesto a las ventas a favor",
+          "code": null,
+          "description": "",
+          "type": "asset",
+          "readOnly": false,
+          "nature": "debit",
+          "blocked": "no",
+          "status": "active",
+          "categoryRule": {
+            "id": "44",
+            "name": "IVA descontable",
+            "key": "IVA_IN_FAVOR_COL"
+          },
+          "use": "movement",
+          "showThirdPartyBalance": true
+        },
+        "categoryToBePaid": {
+          "id": "5043",
+          "idParent": "5042",
+          "name": "Impuesto a las ventas por pagar",
+          "text": "Impuesto a las ventas por pagar",
+          "code": null,
+          "description": "",
+          "type": "liability",
+          "readOnly": false,
+          "nature": "credit",
+          "blocked": "no",
+          "status": "active",
+          "categoryRule": {
+            "id": "47",
+            "name": "IVA generado",
+            "key": "IVA_TO_PAY_COL"
+          },
+          "use": "movement",
+          "showThirdPartyBalance": true
+        },
+        "rate": null
+      }
+    ],
+    "images": [
+      {
+        "id": 1729,
+        "name": "WhatsApp Image 2023-06-02 at 16.38.04.jpeg",
+        "url": "https://cdn3.alegra.com/58b6f7a9a514ee30ac791ffc42de2ae736e12b3b-1685742007-WhatsApp+Image+2023-06-02+at+16.38.04.jpeg?Expires=1756329473&Signature=hzlg9Enm~e69fnl-4iOfctEg6KQPUz3cUwxCT6flZ1j92IZHkdVDzMqQm-Xi7ProTi2EGrPo-LB8ThIuAuOF6nBWlq-l7sDI1KuDEldH8yF6O5U07joGCMjfA0RTSPyzj4GjXeQtlpvlmEstFO~hbBjxdSQ7lI5x3uTtqu9vyGJOL4QVcg1iRtsO3cjz8AoUQgQ2fuh1v9f~RJpjYm2C-juX58SK52xTXvG3JLn~2S1oAbEhb-EhAF3LUwvP6FWE4nXQmvJfuXST9XibncwnzBEh97U288CTajXhTLpAKdwJ0ADybsEnkkoBXsIt7JRs5KxHXBeHvleX1JamLtHBVQ__&Key-Pair-Id=APKAJU3VE62QBWZP27QQ",
+        "favorite": true
+      }
+    ],
+    "customFields": [],
+    "productKey": null,
+    "type": "product",
+    "itemType": null
+  },
+  {
+    "id": "743",
+    "category": {
+      "id": "5063",
+      "name": "Ventas"
+    },
+    "hasNoIvaDays": false,
+    "itemCategory": {
+      "id": 10,
+      "name": "SIENTOCHENTA",
+      "description": "",
+      "status": "inactive"
+    },
+    "name": "Alma Denim Denim M/L",
+    "description": "SO",
+    "reference": null,
+    "status": "inactive",
+    "calculationScale": 6,
+    "price": [
+      {
+        "idPriceList": "1",
+        "name": "General",
+        "type": "amount",
+        "price": 241176.47,
+        "currency": {
+          "code": "COP",
+          "symbol": "$"
+        },
+        "main": true,
+        "edited": false
+      }
+    ],
+    "inventory": {
+      "initialQuantity": 1,
+      "initialQuantityDate": "2021-08-03",
+      "unit": "unit",
+      "unitCost": 217058.82,
+      "availableQuantity": 0,
+      "warehouses": [
+        {
+          "name": "Calle 94",
+          "observations": "",
+          "isDefault": true,
+          "status": "active",
+          "id": "1",
+          "costCenter": null,
+          "address": "Calle 94 # 11a-80",
+          "initialQuantity": 1,
+          "availableQuantity": 0,
+          "minQuantity": null,
+          "maxQuantity": null
+        }
+      ]
+    },
+    "accounting": {
+      "inventory": {
+        "id": "5023",
+        "idParent": "5002",
+        "name": "Inventarios",
+        "text": "Inventarios",
+        "code": null,
+        "description": "",
+        "type": "asset",
+        "readOnly": false,
+        "nature": "debit",
+        "blocked": "no",
+        "status": "active",
+        "categoryRule": {
+          "id": "7",
+          "name": "Inventario",
+          "key": "INVENTORY"
+        },
+        "use": "movement",
+        "showThirdPartyBalance": true
+      },
+      "inventariablePurchase": {
+        "id": "5071",
+        "idParent": "5070",
+        "name": "Costos del inventario",
+        "text": "Costos del inventario",
+        "code": null,
+        "description": "",
+        "type": "expense",
+        "readOnly": true,
+        "nature": "debit",
+        "blocked": "no",
+        "status": "active",
+        "categoryRule": {
+          "id": "33",
+          "name": "Costo de ventas",
+          "key": "INVENTARIABLE_PURCHASES"
+        },
+        "use": "movement",
+        "showThirdPartyBalance": true
+      }
+    },
+    "tax": [
+      {
+        "id": "3",
+        "name": "IVA",
+        "percentage": "19.00",
+        "description": "",
+        "status": "active",
+        "deductible": "yes",
+        "type": "IVA",
+        "categoryFavorable": {
+          "id": "5011",
+          "idParent": "5010",
+          "name": "Impuesto a las ventas a favor",
+          "text": "Impuesto a las ventas a favor",
+          "code": null,
+          "description": "",
+          "type": "asset",
+          "readOnly": false,
+          "nature": "debit",
+          "blocked": "no",
+          "status": "active",
+          "categoryRule": {
+            "id": "44",
+            "name": "IVA descontable",
+            "key": "IVA_IN_FAVOR_COL"
+          },
+          "use": "movement",
+          "showThirdPartyBalance": true
+        },
+        "categoryToBePaid": {
+          "id": "5043",
+          "idParent": "5042",
+          "name": "Impuesto a las ventas por pagar",
+          "text": "Impuesto a las ventas por pagar",
+          "code": null,
+          "description": "",
+          "type": "liability",
+          "readOnly": false,
+          "nature": "credit",
+          "blocked": "no",
+          "status": "active",
+          "categoryRule": {
+            "id": "47",
+            "name": "IVA generado",
+            "key": "IVA_TO_PAY_COL"
+          },
+          "use": "movement",
+          "showThirdPartyBalance": true
+        },
+        "rate": null
+      }
+    ],
+    "images": [
+      {
+        "id": 613,
+        "name": "ALMA DENIM.png",
+        "url": "https://cdn3.alegra.com/58b6f7a9a514ee30ac791ffc42de2ae736e12b3b-1628103766-ALMA+DENIM.png?Expires=1756329473&Signature=TCFwaM1Jv6OM204O6zOqBrj-4VSGpYqXet3~fXJJXeI0YeE2TGMxmUyIjnLT-nZDVc3arUbAbWXDsHPataTogx~bhmvBO2AEqQXdfxtjyGhIU3jlS6Ys08kEI07lzlSPcZbgErRaLu54gK-N82st3THVb2xKpRBe7R3iXn9ETbdUJ7PaaN0DOEAUKwa9A8Hc76vf9NyDvGRS5NMElDXGB1ujdwO8J71ueCWMW66KWDM0C-6AKGuwjJMZtnUmlcvMkxQFUM1311A6U3~nJP3A78~mGyKwZUUGMvqOFpQpcQschUunxJXwdFVz~yneTx2vlwHmXWu9QzTTCPIb4-d~TA__&Key-Pair-Id=APKAJU3VE62QBWZP27QQ",
+        "favorite": true
+      }
+    ],
+    "customFields": [],
+    "productKey": null,
+    "type": "simple",
+    "itemType": null
+  },
+  {
+    "id": "742",
+    "category": {
+      "id": "5063",
+      "name": "Ventas"
+    },
+    "hasNoIvaDays": false,
+    "itemCategory": {
+      "id": 10,
+      "name": "SIENTOCHENTA",
+      "description": "",
+      "status": "inactive"
+    },
+    "name": "Alma Denim Denim xs/S",
+    "description": "SO",
+    "reference": null,
+    "status": "inactive",
+    "calculationScale": 6,
+    "price": [
+      {
+        "idPriceList": "1",
+        "name": "General",
+        "type": "amount",
+        "price": 241176.47,
+        "currency": {
+          "code": "COP",
+          "symbol": "$"
+        },
+        "main": true,
+        "edited": false
+      }
+    ],
+    "inventory": {
+      "initialQuantity": 1,
+      "initialQuantityDate": "2021-08-03",
+      "unit": "unit",
+      "unitCost": 217058.82,
+      "availableQuantity": 0,
+      "warehouses": [
+        {
+          "name": "Calle 94",
+          "observations": "",
+          "isDefault": true,
+          "status": "active",
+          "id": "1",
+          "costCenter": null,
+          "address": "Calle 94 # 11a-80",
+          "initialQuantity": 1,
+          "availableQuantity": 0,
+          "minQuantity": null,
+          "maxQuantity": null
+        }
+      ]
+    },
+    "accounting": {
+      "inventory": {
+        "id": "5023",
+        "idParent": "5002",
+        "name": "Inventarios",
+        "text": "Inventarios",
+        "code": null,
+        "description": "",
+        "type": "asset",
+        "readOnly": false,
+        "nature": "debit",
+        "blocked": "no",
+        "status": "active",
+        "categoryRule": {
+          "id": "7",
+          "name": "Inventario",
+          "key": "INVENTORY"
+        },
+        "use": "movement",
+        "showThirdPartyBalance": true
+      },
+      "inventariablePurchase": {
+        "id": "5071",
+        "idParent": "5070",
+        "name": "Costos del inventario",
+        "text": "Costos del inventario",
+        "code": null,
+        "description": "",
+        "type": "expense",
+        "readOnly": true,
+        "nature": "debit",
+        "blocked": "no",
+        "status": "active",
+        "categoryRule": {
+          "id": "33",
+          "name": "Costo de ventas",
+          "key": "INVENTARIABLE_PURCHASES"
+        },
+        "use": "movement",
+        "showThirdPartyBalance": true
+      }
+    },
+    "tax": [
+      {
+        "id": "3",
+        "name": "IVA",
+        "percentage": "19.00",
+        "description": "",
+        "status": "active",
+        "deductible": "yes",
+        "type": "IVA",
+        "categoryFavorable": {
+          "id": "5011",
+          "idParent": "5010",
+          "name": "Impuesto a las ventas a favor",
+          "text": "Impuesto a las ventas a favor",
+          "code": null,
+          "description": "",
+          "type": "asset",
+          "readOnly": false,
+          "nature": "debit",
+          "blocked": "no",
+          "status": "active",
+          "categoryRule": {
+            "id": "44",
+            "name": "IVA descontable",
+            "key": "IVA_IN_FAVOR_COL"
+          },
+          "use": "movement",
+          "showThirdPartyBalance": true
+        },
+        "categoryToBePaid": {
+          "id": "5043",
+          "idParent": "5042",
+          "name": "Impuesto a las ventas por pagar",
+          "text": "Impuesto a las ventas por pagar",
+          "code": null,
+          "description": "",
+          "type": "liability",
+          "readOnly": false,
+          "nature": "credit",
+          "blocked": "no",
+          "status": "active",
+          "categoryRule": {
+            "id": "47",
+            "name": "IVA generado",
+            "key": "IVA_TO_PAY_COL"
+          },
+          "use": "movement",
+          "showThirdPartyBalance": true
+        },
+        "rate": null
+      }
+    ],
+    "images": [
+      {
+        "id": 640,
+        "name": "ALMA DENIM.png",
+        "url": "https://cdn3.alegra.com/58b6f7a9a514ee30ac791ffc42de2ae736e12b3b-1628104731-ALMA+DENIM.png?Expires=1756329473&Signature=gB~IRNkVQ8dzTxZ24xDK1ybaCBIW0rro5Yda9O4untdFHIKMSSRYv2eeU5Qqp68KUCKXIa4~9~Y1aigjQQwyBoxPyeEbyyJA2Dt-4CJ7cjpF2UVfDowrthAa4UE3SXpQnMuw4fyhCjTIyZ1jmPiLs3kPvcBJvu~1rb6yAFtvU96bJnavFLYXueL4NjntdwnCQbMzvbvisCvW9wtFxrifwbdgNvPvIcqICC5phEoqAkPHJuJLPTe-6gy~eiQth0R5T4Ri1EjanMKHKE-Egt6Ce9TFTQJYAWIbmcWEkNXv40SAN4J6fOXuaMq6Ot6O5gU4UZQ58MOhXB~X18Mb~UhE6A__&Key-Pair-Id=APKAJU3VE62QBWZP27QQ",
+        "favorite": true
+      }
+    ],
+    "customFields": [],
+    "productKey": null,
+    "type": "simple",
+    "itemType": null
+  },
+  {
+    "id": "1024",
+    "category": {
+      "id": "5063",
+      "name": "Ventas"
+    },
+    "hasNoIvaDays": false,
+    "itemCategory": {
+      "id": 8,
+      "name": "DELLA TERRA",
+      "description": "MARCA EXTERNO",
+      "status": "inactive",
+      "image": {
+        "id": 241,
+        "name": "cropped-ISOTIPO-DELLA-TERRA-NEGRO-3.png",
+        "url": "https://cdn3.alegra.com/58b6f7a9a514ee30ac791ffc42de2ae736e12b3b-1623193596-cropped-ISOTIPO-DELLA-TERRA-NEGRO-3.png?Expires=1756329473&Signature=FvfD4oqUXNIYePxa9xNqL6tkW5H79UQT6Z2iHO8F1b0MMuDj5EZBsb25iNONMbJhAnoRsZ1KHkGunX~uA9OpeVDg~NRXkEMpCvQM4vOcoKdr3XlAUeEMliLPM8d-khdQ~7B9gURWGH5BsuihSGof5uxTjowvfxTuLnJgBSC5nw56LpKjrFtNUnKLwu8IqLmyrZQVIsuNGdYz1G1YuLOle~CBucytEfJPyO4h3XQ0IK2~f4MwJAbb2E~7lOLFaArN4rJeLKU-DuisisG2nmYdCl4FhojkZDaoZvmgBhYJ~SxwjRJyzEkLUEaX7cTS5iqWmLIrGQfRExLqGxCaWEiSLg__&Key-Pair-Id=APKAJU3VE62QBWZP27QQ"
+      }
+    },
+    "name": "Aloe Shorts Beige - L",
+    "description": "DT",
+    "reference": null,
+    "status": "inactive",
+    "calculationScale": 2,
+    "price": [
+      {
+        "idPriceList": "1",
+        "name": "General",
+        "type": "amount",
+        "price": 49579.83,
+        "currency": {
+          "code": "COP",
+          "symbol": "$"
+        },
+        "main": true,
+        "edited": false
+      }
+    ],
+    "inventory": {
+      "initialQuantity": 1,
+      "initialQuantityDate": "2021-11-26",
+      "unit": "unit",
+      "unitCost": 44622,
+      "availableQuantity": 0,
+      "warehouses": [
+        {
+          "name": "Calle 94",
+          "observations": "",
+          "isDefault": true,
+          "status": "active",
+          "id": "1",
+          "costCenter": null,
+          "address": "Calle 94 # 11a-80",
+          "initialQuantity": 1,
+          "availableQuantity": 0,
+          "minQuantity": null,
+          "maxQuantity": null
+        }
+      ]
+    },
+    "accounting": {
+      "inventory": {
+        "id": "5023",
+        "idParent": "5002",
+        "name": "Inventarios",
+        "text": "Inventarios",
+        "code": null,
+        "description": "",
+        "type": "asset",
+        "readOnly": false,
+        "nature": "debit",
+        "blocked": "no",
+        "status": "active",
+        "categoryRule": {
+          "id": "7",
+          "name": "Inventario",
+          "key": "INVENTORY"
+        },
+        "use": "movement",
+        "showThirdPartyBalance": true
+      },
+      "inventariablePurchase": {
+        "id": "5071",
+        "idParent": "5070",
+        "name": "Costos del inventario",
+        "text": "Costos del inventario",
+        "code": null,
+        "description": "",
+        "type": "expense",
+        "readOnly": true,
+        "nature": "debit",
+        "blocked": "no",
+        "status": "active",
+        "categoryRule": {
+          "id": "33",
+          "name": "Costo de ventas",
+          "key": "INVENTARIABLE_PURCHASES"
+        },
+        "use": "movement",
+        "showThirdPartyBalance": true
+      }
+    },
+    "tax": [
+      {
+        "id": "3",
+        "name": "IVA",
+        "percentage": "19.00",
+        "description": "",
+        "status": "active",
+        "deductible": "yes",
+        "type": "IVA",
+        "categoryFavorable": {
+          "id": "5011",
+          "idParent": "5010",
+          "name": "Impuesto a las ventas a favor",
+          "text": "Impuesto a las ventas a favor",
+          "code": null,
+          "description": "",
+          "type": "asset",
+          "readOnly": false,
+          "nature": "debit",
+          "blocked": "no",
+          "status": "active",
+          "categoryRule": {
+            "id": "44",
+            "name": "IVA descontable",
+            "key": "IVA_IN_FAVOR_COL"
+          },
+          "use": "movement",
+          "showThirdPartyBalance": true
+        },
+        "categoryToBePaid": {
+          "id": "5043",
+          "idParent": "5042",
+          "name": "Impuesto a las ventas por pagar",
+          "text": "Impuesto a las ventas por pagar",
+          "code": null,
+          "description": "",
+          "type": "liability",
+          "readOnly": false,
+          "nature": "credit",
+          "blocked": "no",
+          "status": "active",
+          "categoryRule": {
+            "id": "47",
+            "name": "IVA generado",
+            "key": "IVA_TO_PAY_COL"
+          },
+          "use": "movement",
+          "showThirdPartyBalance": true
+        },
+        "rate": null
+      }
+    ],
+    "customFields": [],
+    "productKey": null,
+    "type": "simple",
+    "itemType": null
+  },
+  {
+    "id": "1023",
+    "category": {
+      "id": "5063",
+      "name": "Ventas"
+    },
+    "hasNoIvaDays": false,
+    "itemCategory": {
+      "id": 8,
+      "name": "DELLA TERRA",
+      "description": "MARCA EXTERNO",
+      "status": "inactive",
+      "image": {
+        "id": 241,
+        "name": "cropped-ISOTIPO-DELLA-TERRA-NEGRO-3.png",
+        "url": "https://cdn3.alegra.com/58b6f7a9a514ee30ac791ffc42de2ae736e12b3b-1623193596-cropped-ISOTIPO-DELLA-TERRA-NEGRO-3.png?Expires=1756329473&Signature=FvfD4oqUXNIYePxa9xNqL6tkW5H79UQT6Z2iHO8F1b0MMuDj5EZBsb25iNONMbJhAnoRsZ1KHkGunX~uA9OpeVDg~NRXkEMpCvQM4vOcoKdr3XlAUeEMliLPM8d-khdQ~7B9gURWGH5BsuihSGof5uxTjowvfxTuLnJgBSC5nw56LpKjrFtNUnKLwu8IqLmyrZQVIsuNGdYz1G1YuLOle~CBucytEfJPyO4h3XQ0IK2~f4MwJAbb2E~7lOLFaArN4rJeLKU-DuisisG2nmYdCl4FhojkZDaoZvmgBhYJ~SxwjRJyzEkLUEaX7cTS5iqWmLIrGQfRExLqGxCaWEiSLg__&Key-Pair-Id=APKAJU3VE62QBWZP27QQ"
+      }
+    },
+    "name": "Aloe Shorts Beige - M",
+    "description": "DT",
+    "reference": null,
+    "status": "inactive",
+    "calculationScale": 2,
+    "price": [
+      {
+        "idPriceList": "1",
+        "name": "General",
+        "type": "amount",
+        "price": 49579.83,
+        "currency": {
+          "code": "COP",
+          "symbol": "$"
+        },
+        "main": true,
+        "edited": false
+      }
+    ],
+    "inventory": {
+      "initialQuantity": 1,
+      "initialQuantityDate": "2021-11-26",
+      "unit": "unit",
+      "unitCost": 44622,
+      "availableQuantity": 0,
+      "warehouses": [
+        {
+          "name": "Calle 94",
+          "observations": "",
+          "isDefault": true,
+          "status": "active",
+          "id": "1",
+          "costCenter": null,
+          "address": "Calle 94 # 11a-80",
+          "initialQuantity": 1,
+          "availableQuantity": 0,
+          "minQuantity": null,
+          "maxQuantity": null
+        }
+      ]
+    },
+    "accounting": {
+      "inventory": {
+        "id": "5023",
+        "idParent": "5002",
+        "name": "Inventarios",
+        "text": "Inventarios",
+        "code": null,
+        "description": "",
+        "type": "asset",
+        "readOnly": false,
+        "nature": "debit",
+        "blocked": "no",
+        "status": "active",
+        "categoryRule": {
+          "id": "7",
+          "name": "Inventario",
+          "key": "INVENTORY"
+        },
+        "use": "movement",
+        "showThirdPartyBalance": true
+      },
+      "inventariablePurchase": {
+        "id": "5071",
+        "idParent": "5070",
+        "name": "Costos del inventario",
+        "text": "Costos del inventario",
+        "code": null,
+        "description": "",
+        "type": "expense",
+        "readOnly": true,
+        "nature": "debit",
+        "blocked": "no",
+        "status": "active",
+        "categoryRule": {
+          "id": "33",
+          "name": "Costo de ventas",
+          "key": "INVENTARIABLE_PURCHASES"
+        },
+        "use": "movement",
+        "showThirdPartyBalance": true
+      }
+    },
+    "tax": [
+      {
+        "id": "3",
+        "name": "IVA",
+        "percentage": "19.00",
+        "description": "",
+        "status": "active",
+        "deductible": "yes",
+        "type": "IVA",
+        "categoryFavorable": {
+          "id": "5011",
+          "idParent": "5010",
+          "name": "Impuesto a las ventas a favor",
+          "text": "Impuesto a las ventas a favor",
+          "code": null,
+          "description": "",
+          "type": "asset",
+          "readOnly": false,
+          "nature": "debit",
+          "blocked": "no",
+          "status": "active",
+          "categoryRule": {
+            "id": "44",
+            "name": "IVA descontable",
+            "key": "IVA_IN_FAVOR_COL"
+          },
+          "use": "movement",
+          "showThirdPartyBalance": true
+        },
+        "categoryToBePaid": {
+          "id": "5043",
+          "idParent": "5042",
+          "name": "Impuesto a las ventas por pagar",
+          "text": "Impuesto a las ventas por pagar",
+          "code": null,
+          "description": "",
+          "type": "liability",
+          "readOnly": false,
+          "nature": "credit",
+          "blocked": "no",
+          "status": "active",
+          "categoryRule": {
+            "id": "47",
+            "name": "IVA generado",
+            "key": "IVA_TO_PAY_COL"
+          },
+          "use": "movement",
+          "showThirdPartyBalance": true
+        },
+        "rate": null
+      }
+    ],
+    "customFields": [],
+    "productKey": null,
+    "type": "simple",
+    "itemType": null
+  },
+  {
+    "id": "1022",
+    "category": {
+      "id": "5063",
+      "name": "Ventas"
+    },
+    "hasNoIvaDays": false,
+    "itemCategory": {
+      "id": 8,
+      "name": "DELLA TERRA",
+      "description": "MARCA EXTERNO",
+      "status": "inactive",
+      "image": {
+        "id": 241,
+        "name": "cropped-ISOTIPO-DELLA-TERRA-NEGRO-3.png",
+        "url": "https://cdn3.alegra.com/58b6f7a9a514ee30ac791ffc42de2ae736e12b3b-1623193596-cropped-ISOTIPO-DELLA-TERRA-NEGRO-3.png?Expires=1756329473&Signature=FvfD4oqUXNIYePxa9xNqL6tkW5H79UQT6Z2iHO8F1b0MMuDj5EZBsb25iNONMbJhAnoRsZ1KHkGunX~uA9OpeVDg~NRXkEMpCvQM4vOcoKdr3XlAUeEMliLPM8d-khdQ~7B9gURWGH5BsuihSGof5uxTjowvfxTuLnJgBSC5nw56LpKjrFtNUnKLwu8IqLmyrZQVIsuNGdYz1G1YuLOle~CBucytEfJPyO4h3XQ0IK2~f4MwJAbb2E~7lOLFaArN4rJeLKU-DuisisG2nmYdCl4FhojkZDaoZvmgBhYJ~SxwjRJyzEkLUEaX7cTS5iqWmLIrGQfRExLqGxCaWEiSLg__&Key-Pair-Id=APKAJU3VE62QBWZP27QQ"
+      }
+    },
+    "name": "Aloe Shorts Beige - S",
+    "description": "DT",
+    "reference": null,
+    "status": "inactive",
+    "calculationScale": 2,
+    "price": [
+      {
+        "idPriceList": "1",
+        "name": "General",
+        "type": "amount",
+        "price": 49579.83,
+        "currency": {
+          "code": "COP",
+          "symbol": "$"
+        },
+        "main": true,
+        "edited": false
+      }
+    ],
+    "inventory": {
+      "initialQuantity": 1,
+      "initialQuantityDate": "2021-11-26",
+      "unit": "unit",
+      "unitCost": 44662,
+      "availableQuantity": 0,
+      "warehouses": [
+        {
+          "name": "Calle 94",
+          "observations": "",
+          "isDefault": true,
+          "status": "active",
+          "id": "1",
+          "costCenter": null,
+          "address": "Calle 94 # 11a-80",
+          "initialQuantity": 1,
+          "availableQuantity": 0,
+          "minQuantity": null,
+          "maxQuantity": null
+        }
+      ]
+    },
+    "accounting": {
+      "inventory": {
+        "id": "5023",
+        "idParent": "5002",
+        "name": "Inventarios",
+        "text": "Inventarios",
+        "code": null,
+        "description": "",
+        "type": "asset",
+        "readOnly": false,
+        "nature": "debit",
+        "blocked": "no",
+        "status": "active",
+        "categoryRule": {
+          "id": "7",
+          "name": "Inventario",
+          "key": "INVENTORY"
+        },
+        "use": "movement",
+        "showThirdPartyBalance": true
+      },
+      "inventariablePurchase": {
+        "id": "5071",
+        "idParent": "5070",
+        "name": "Costos del inventario",
+        "text": "Costos del inventario",
+        "code": null,
+        "description": "",
+        "type": "expense",
+        "readOnly": true,
+        "nature": "debit",
+        "blocked": "no",
+        "status": "active",
+        "categoryRule": {
+          "id": "33",
+          "name": "Costo de ventas",
+          "key": "INVENTARIABLE_PURCHASES"
+        },
+        "use": "movement",
+        "showThirdPartyBalance": true
+      }
+    },
+    "tax": [
+      {
+        "id": "3",
+        "name": "IVA",
+        "percentage": "19.00",
+        "description": "",
+        "status": "active",
+        "deductible": "yes",
+        "type": "IVA",
+        "categoryFavorable": {
+          "id": "5011",
+          "idParent": "5010",
+          "name": "Impuesto a las ventas a favor",
+          "text": "Impuesto a las ventas a favor",
+          "code": null,
+          "description": "",
+          "type": "asset",
+          "readOnly": false,
+          "nature": "debit",
+          "blocked": "no",
+          "status": "active",
+          "categoryRule": {
+            "id": "44",
+            "name": "IVA descontable",
+            "key": "IVA_IN_FAVOR_COL"
+          },
+          "use": "movement",
+          "showThirdPartyBalance": true
+        },
+        "categoryToBePaid": {
+          "id": "5043",
+          "idParent": "5042",
+          "name": "Impuesto a las ventas por pagar",
+          "text": "Impuesto a las ventas por pagar",
+          "code": null,
+          "description": "",
+          "type": "liability",
+          "readOnly": false,
+          "nature": "credit",
+          "blocked": "no",
+          "status": "active",
+          "categoryRule": {
+            "id": "47",
+            "name": "IVA generado",
+            "key": "IVA_TO_PAY_COL"
+          },
+          "use": "movement",
+          "showThirdPartyBalance": true
+        },
+        "rate": null
+      }
+    ],
+    "customFields": [],
+    "productKey": null,
+    "type": "simple",
+    "itemType": null
+  },
+  {
+    "id": "603",
+    "category": {
+      "id": "5063",
+      "name": "Ventas"
+    },
+    "hasNoIvaDays": false,
+    "itemCategory": {
+      "id": 7,
+      "name": "VICIMARE",
+      "description": "MARCA EXTERNA VESTIDOS DE BAÑO",
+      "status": "inactive",
+      "image": {
+        "id": 239,
+        "name": "Imagen1.jpg",
+        "url": "https://cdn3.alegra.com/58b6f7a9a514ee30ac791ffc42de2ae736e12b3b-1623186396-Imagen1.jpg?Expires=1756329473&Signature=WFzHcPErxfrsswJC1kyVLfKbBRfSs6J8HxEiaprD3Jt1JVXdoNX4qMWysvw5b7JhUMM5BeI-aDLG1Qe1GpS-9Jlyn9sjXEq-4cAx4oPFhXrHjFsOX~3LDtZvMLiZotONvAJ8hTTHH4xL8zdX74dMuN9Pxo0tEPfMnMpEQgYXlfnlF2rc3055WhWBKDPUHeWH8a3i3zNlBvXBXlFFWSko~HXuYPUwEAr0~TwqfBkRB~5XgvCCdF7KUkj9niJKhTwmKPrlJ2ugnoYC6nqP5X7fVYTu80yeO8hhD~-W2HO1pMR5yaPirgaQJz9x9MFmUiHS8Oh~tNjfKFxwn7dH0HxAIg__&Key-Pair-Id=APKAJU3VE62QBWZP27QQ"
+      }
+    },
+    "name": "AMARRE DELGADO AMARILLO L",
+    "description": "VM",
+    "reference": null,
+    "status": "inactive",
+    "calculationScale": 2,
+    "price": [
+      {
+        "idPriceList": "1",
+        "name": "General",
+        "type": "amount",
+        "price": 84033.61,
+        "currency": {
+          "code": "COP",
+          "symbol": "$"
+        },
+        "main": true,
+        "edited": false
+      }
+    ],
+    "inventory": {
+      "initialQuantity": 0,
+      "initialQuantityDate": "2021-07-14",
+      "unit": "unit",
+      "unitCost": 75630.25,
+      "availableQuantity": 0,
+      "warehouses": [
+        {
+          "name": "Calle 94",
+          "observations": "",
+          "isDefault": true,
+          "status": "active",
+          "id": "1",
+          "costCenter": null,
+          "address": "Calle 94 # 11a-80",
+          "initialQuantity": 0,
+          "availableQuantity": 0,
+          "minQuantity": null,
+          "maxQuantity": null
+        }
+      ]
+    },
+    "accounting": {
+      "inventory": {
+        "id": "5023",
+        "idParent": "5002",
+        "name": "Inventarios",
+        "text": "Inventarios",
+        "code": null,
+        "description": "",
+        "type": "asset",
+        "readOnly": false,
+        "nature": "debit",
+        "blocked": "no",
+        "status": "active",
+        "categoryRule": {
+          "id": "7",
+          "name": "Inventario",
+          "key": "INVENTORY"
+        },
+        "use": "movement",
+        "showThirdPartyBalance": true
+      },
+      "inventariablePurchase": {
+        "id": "5071",
+        "idParent": "5070",
+        "name": "Costos del inventario",
+        "text": "Costos del inventario",
+        "code": null,
+        "description": "",
+        "type": "expense",
+        "readOnly": true,
+        "nature": "debit",
+        "blocked": "no",
+        "status": "active",
+        "categoryRule": {
+          "id": "33",
+          "name": "Costo de ventas",
+          "key": "INVENTARIABLE_PURCHASES"
+        },
+        "use": "movement",
+        "showThirdPartyBalance": true
+      }
+    },
+    "tax": [
+      {
+        "id": "3",
+        "name": "IVA",
+        "percentage": "19.00",
+        "description": "",
+        "status": "active",
+        "deductible": "yes",
+        "type": "IVA",
+        "categoryFavorable": {
+          "id": "5011",
+          "idParent": "5010",
+          "name": "Impuesto a las ventas a favor",
+          "text": "Impuesto a las ventas a favor",
+          "code": null,
+          "description": "",
+          "type": "asset",
+          "readOnly": false,
+          "nature": "debit",
+          "blocked": "no",
+          "status": "active",
+          "categoryRule": {
+            "id": "44",
+            "name": "IVA descontable",
+            "key": "IVA_IN_FAVOR_COL"
+          },
+          "use": "movement",
+          "showThirdPartyBalance": true
+        },
+        "categoryToBePaid": {
+          "id": "5043",
+          "idParent": "5042",
+          "name": "Impuesto a las ventas por pagar",
+          "text": "Impuesto a las ventas por pagar",
+          "code": null,
+          "description": "",
+          "type": "liability",
+          "readOnly": false,
+          "nature": "credit",
+          "blocked": "no",
+          "status": "active",
+          "categoryRule": {
+            "id": "47",
+            "name": "IVA generado",
+            "key": "IVA_TO_PAY_COL"
+          },
+          "use": "movement",
+          "showThirdPartyBalance": true
+        },
+        "rate": null
+      }
+    ],
+    "images": [
+      {
+        "id": 496,
+        "name": "Amarre Delgado Amarillo.jpg",
+        "url": "https://cdn3.alegra.com/58b6f7a9a514ee30ac791ffc42de2ae736e12b3b-1626301356-Amarre+Delgado+Amarillo.jpg?Expires=1756329473&Signature=gkr86mfk7hQPLc6-CrlJPDEth4YFaXTNzkn1ChUnIozfz2mZZRD4Ayb7ZAdAWhd2HyqVxZMi9asZUovXwPXL7Zi946BwY0HATlgJSkB8Ls4-gzl2j9pSwn1NNSn8bGh3EbPgoY1HBwCLpdktC7hdkNMntrPVM~Gpe91St2J2nWfCP7YbPWkJ54ij4DfwpTmZpZRtZ~Q~SvpI~~XsNXp0P~8DhaeDuLBZd~8jnY0I9fibp9t-yI9AVvrUgApBNC~XfhvZEp6ox98mq6L~wPKjQi4tLZwZsLytnZH3KHoPk5sf~y6jhsbietNla7OlXLJWDRELJVz1w1tK0Yz4eATzVA__&Key-Pair-Id=APKAJU3VE62QBWZP27QQ",
+        "favorite": true
+      }
+    ],
+    "customFields": [],
+    "productKey": null,
+    "type": "simple",
+    "itemType": null
+  },
+  {
+    "id": "614",
+    "category": {
+      "id": "5063",
+      "name": "Ventas"
+    },
+    "hasNoIvaDays": false,
+    "itemCategory": {
+      "id": 7,
+      "name": "VICIMARE",
+      "description": "MARCA EXTERNA VESTIDOS DE BAÑO",
+      "status": "inactive",
+      "image": {
+        "id": 239,
+        "name": "Imagen1.jpg",
+        "url": "https://cdn3.alegra.com/58b6f7a9a514ee30ac791ffc42de2ae736e12b3b-1623186396-Imagen1.jpg?Expires=1756329473&Signature=WFzHcPErxfrsswJC1kyVLfKbBRfSs6J8HxEiaprD3Jt1JVXdoNX4qMWysvw5b7JhUMM5BeI-aDLG1Qe1GpS-9Jlyn9sjXEq-4cAx4oPFhXrHjFsOX~3LDtZvMLiZotONvAJ8hTTHH4xL8zdX74dMuN9Pxo0tEPfMnMpEQgYXlfnlF2rc3055WhWBKDPUHeWH8a3i3zNlBvXBXlFFWSko~HXuYPUwEAr0~TwqfBkRB~5XgvCCdF7KUkj9niJKhTwmKPrlJ2ugnoYC6nqP5X7fVYTu80yeO8hhD~-W2HO1pMR5yaPirgaQJz9x9MFmUiHS8Oh~tNjfKFxwn7dH0HxAIg__&Key-Pair-Id=APKAJU3VE62QBWZP27QQ"
+      }
+    },
+    "name": "AMARRE GRUESO BLANCO M",
+    "description": "VM",
+    "reference": null,
+    "status": "inactive",
+    "calculationScale": 2,
+    "price": [
+      {
+        "idPriceList": "1",
+        "name": "General",
+        "type": "amount",
+        "price": 100840.34,
+        "currency": {
+          "code": "COP",
+          "symbol": "$"
+        },
+        "main": true,
+        "edited": false
+      }
+    ],
+    "inventory": {
+      "initialQuantity": 2,
+      "initialQuantityDate": "2021-07-14",
+      "unit": "unit",
+      "unitCost": 90756.3,
+      "availableQuantity": 0,
+      "warehouses": [
+        {
+          "name": "Calle 94",
+          "observations": "",
+          "isDefault": true,
+          "status": "active",
+          "id": "1",
+          "costCenter": null,
+          "address": "Calle 94 # 11a-80",
+          "initialQuantity": 2,
+          "availableQuantity": 0,
+          "minQuantity": null,
+          "maxQuantity": null
+        }
+      ]
+    },
+    "accounting": {
+      "inventory": {
+        "id": "5023",
+        "idParent": "5002",
+        "name": "Inventarios",
+        "text": "Inventarios",
+        "code": null,
+        "description": "",
+        "type": "asset",
+        "readOnly": false,
+        "nature": "debit",
+        "blocked": "no",
+        "status": "active",
+        "categoryRule": {
+          "id": "7",
+          "name": "Inventario",
+          "key": "INVENTORY"
+        },
+        "use": "movement",
+        "showThirdPartyBalance": true
+      },
+      "inventariablePurchase": {
+        "id": "5071",
+        "idParent": "5070",
+        "name": "Costos del inventario",
+        "text": "Costos del inventario",
+        "code": null,
+        "description": "",
+        "type": "expense",
+        "readOnly": true,
+        "nature": "debit",
+        "blocked": "no",
+        "status": "active",
+        "categoryRule": {
+          "id": "33",
+          "name": "Costo de ventas",
+          "key": "INVENTARIABLE_PURCHASES"
+        },
+        "use": "movement",
+        "showThirdPartyBalance": true
+      }
+    },
+    "tax": [
+      {
+        "id": "3",
+        "name": "IVA",
+        "percentage": "19.00",
+        "description": "",
+        "status": "active",
+        "deductible": "yes",
+        "type": "IVA",
+        "categoryFavorable": {
+          "id": "5011",
+          "idParent": "5010",
+          "name": "Impuesto a las ventas a favor",
+          "text": "Impuesto a las ventas a favor",
+          "code": null,
+          "description": "",
+          "type": "asset",
+          "readOnly": false,
+          "nature": "debit",
+          "blocked": "no",
+          "status": "active",
+          "categoryRule": {
+            "id": "44",
+            "name": "IVA descontable",
+            "key": "IVA_IN_FAVOR_COL"
+          },
+          "use": "movement",
+          "showThirdPartyBalance": true
+        },
+        "categoryToBePaid": {
+          "id": "5043",
+          "idParent": "5042",
+          "name": "Impuesto a las ventas por pagar",
+          "text": "Impuesto a las ventas por pagar",
+          "code": null,
+          "description": "",
+          "type": "liability",
+          "readOnly": false,
+          "nature": "credit",
+          "blocked": "no",
+          "status": "active",
+          "categoryRule": {
+            "id": "47",
+            "name": "IVA generado",
+            "key": "IVA_TO_PAY_COL"
+          },
+          "use": "movement",
+          "showThirdPartyBalance": true
+        },
+        "rate": null
+      }
+    ],
+    "images": [
+      {
+        "id": 507,
+        "name": "Amarre Grueso Blanco.jpg",
+        "url": "https://cdn3.alegra.com/58b6f7a9a514ee30ac791ffc42de2ae736e12b3b-1626301848-Amarre+Grueso+Blanco.jpg?Expires=1756329473&Signature=qRSBVpBtddCIV~pWki4I8GgMY2cdJOuaojbWj5FQd0QcTAx3sMa9TqDnFkN4OjMmDdEsvyM-5Dg8u9GGqw1R6x3SuS-fehTpsL3w841rZ4N5MllS6XGwAF21dzfrKly~SStFpgN~EYh4FIfLJqK5WuGOy3D8tTi1RZs~RR0nsUUjXdG2F~MbryX-vAwvv5YZts6opnHZySaMrzE578oIr1Nlvez4OaqBoczEUVOOj7pfucOBFZQDBuGH30NzNKIHAMfqkjFaJs~kAhbFb-XRWXGep5aNcIM7vMPZkCdoejT4nYJ2wSAM7Xbpl99H2eCfynk7ZmzwX9N516GeRie13A__&Key-Pair-Id=APKAJU3VE62QBWZP27QQ",
+        "favorite": true
+      }
+    ],
+    "customFields": [],
+    "productKey": null,
+    "type": "simple",
+    "itemType": null
+  },
+  {
+    "id": "613",
+    "category": {
+      "id": "5063",
+      "name": "Ventas"
+    },
+    "hasNoIvaDays": false,
+    "itemCategory": {
+      "id": 7,
+      "name": "VICIMARE",
+      "description": "MARCA EXTERNA VESTIDOS DE BAÑO",
+      "status": "inactive",
+      "image": {
+        "id": 239,
+        "name": "Imagen1.jpg",
+        "url": "https://cdn3.alegra.com/58b6f7a9a514ee30ac791ffc42de2ae736e12b3b-1623186396-Imagen1.jpg?Expires=1756329473&Signature=WFzHcPErxfrsswJC1kyVLfKbBRfSs6J8HxEiaprD3Jt1JVXdoNX4qMWysvw5b7JhUMM5BeI-aDLG1Qe1GpS-9Jlyn9sjXEq-4cAx4oPFhXrHjFsOX~3LDtZvMLiZotONvAJ8hTTHH4xL8zdX74dMuN9Pxo0tEPfMnMpEQgYXlfnlF2rc3055WhWBKDPUHeWH8a3i3zNlBvXBXlFFWSko~HXuYPUwEAr0~TwqfBkRB~5XgvCCdF7KUkj9niJKhTwmKPrlJ2ugnoYC6nqP5X7fVYTu80yeO8hhD~-W2HO1pMR5yaPirgaQJz9x9MFmUiHS8Oh~tNjfKFxwn7dH0HxAIg__&Key-Pair-Id=APKAJU3VE62QBWZP27QQ"
+      }
+    },
+    "name": "AMARRE GRUESO BLANCO S",
+    "description": "VM",
+    "reference": null,
+    "status": "inactive",
+    "calculationScale": 2,
+    "price": [
+      {
+        "idPriceList": "1",
+        "name": "General",
+        "type": "amount",
+        "price": 100840.34,
+        "currency": {
+          "code": "COP",
+          "symbol": "$"
+        },
+        "main": true,
+        "edited": false
+      }
+    ],
+    "inventory": {
+      "initialQuantity": 2,
+      "initialQuantityDate": "2021-07-14",
+      "unit": "unit",
+      "unitCost": 90756.3,
+      "availableQuantity": 0,
+      "warehouses": [
+        {
+          "name": "Calle 94",
+          "observations": "",
+          "isDefault": true,
+          "status": "active",
+          "id": "1",
+          "costCenter": null,
+          "address": "Calle 94 # 11a-80",
+          "initialQuantity": 2,
+          "availableQuantity": 0,
+          "minQuantity": null,
+          "maxQuantity": null
+        }
+      ]
+    },
+    "accounting": {
+      "inventory": {
+        "id": "5023",
+        "idParent": "5002",
+        "name": "Inventarios",
+        "text": "Inventarios",
+        "code": null,
+        "description": "",
+        "type": "asset",
+        "readOnly": false,
+        "nature": "debit",
+        "blocked": "no",
+        "status": "active",
+        "categoryRule": {
+          "id": "7",
+          "name": "Inventario",
+          "key": "INVENTORY"
+        },
+        "use": "movement",
+        "showThirdPartyBalance": true
+      },
+      "inventariablePurchase": {
+        "id": "5071",
+        "idParent": "5070",
+        "name": "Costos del inventario",
+        "text": "Costos del inventario",
+        "code": null,
+        "description": "",
+        "type": "expense",
+        "readOnly": true,
+        "nature": "debit",
+        "blocked": "no",
+        "status": "active",
+        "categoryRule": {
+          "id": "33",
+          "name": "Costo de ventas",
+          "key": "INVENTARIABLE_PURCHASES"
+        },
+        "use": "movement",
+        "showThirdPartyBalance": true
+      }
+    },
+    "tax": [
+      {
+        "id": "3",
+        "name": "IVA",
+        "percentage": "19.00",
+        "description": "",
+        "status": "active",
+        "deductible": "yes",
+        "type": "IVA",
+        "categoryFavorable": {
+          "id": "5011",
+          "idParent": "5010",
+          "name": "Impuesto a las ventas a favor",
+          "text": "Impuesto a las ventas a favor",
+          "code": null,
+          "description": "",
+          "type": "asset",
+          "readOnly": false,
+          "nature": "debit",
+          "blocked": "no",
+          "status": "active",
+          "categoryRule": {
+            "id": "44",
+            "name": "IVA descontable",
+            "key": "IVA_IN_FAVOR_COL"
+          },
+          "use": "movement",
+          "showThirdPartyBalance": true
+        },
+        "categoryToBePaid": {
+          "id": "5043",
+          "idParent": "5042",
+          "name": "Impuesto a las ventas por pagar",
+          "text": "Impuesto a las ventas por pagar",
+          "code": null,
+          "description": "",
+          "type": "liability",
+          "readOnly": false,
+          "nature": "credit",
+          "blocked": "no",
+          "status": "active",
+          "categoryRule": {
+            "id": "47",
+            "name": "IVA generado",
+            "key": "IVA_TO_PAY_COL"
+          },
+          "use": "movement",
+          "showThirdPartyBalance": true
+        },
+        "rate": null
+      }
+    ],
+    "images": [
+      {
+        "id": 506,
+        "name": "Amarre Grueso Blanco.jpg",
+        "url": "https://cdn3.alegra.com/58b6f7a9a514ee30ac791ffc42de2ae736e12b3b-1626301831-Amarre+Grueso+Blanco.jpg?Expires=1756329473&Signature=fhtSNVeVl5JcoliOVgqX-ZwTHn5XnVYstXeU5-wWe51pxXxgdIsPnuyzgMrjeSuEGUrRoWp2N5yhRMsEDAqFVr3RKswOIBzN0tKK2MnKVmlV05p-MnglqBHwlyU2vcO5p~tgKj02KOGXLusTNjJ8Hr12ZHxpcBTC8cSGQdHcGH~07BUuaTc1t2zLw7yGNtsNMHuuTNYOYPyyfXoa-MeBm6OiOLJXBfFB1hML4IKKPosNhea1c8RZImcj0EnOarrJ3-SxZhi1BFYMcTiZSlqZC6sClPpJecGJZKbUVlxQ54HtA2a6y4Z6EAaAF-BAxZ-LmQnIuVPuTRT36AjK9yiUFA__&Key-Pair-Id=APKAJU3VE62QBWZP27QQ",
+        "favorite": true
+      }
+    ],
+    "customFields": [],
+    "productKey": null,
+    "type": "simple",
+    "itemType": null
+  },
+  {
+    "id": "619",
+    "category": {
+      "id": "5063",
+      "name": "Ventas"
+    },
+    "hasNoIvaDays": false,
+    "itemCategory": {
+      "id": 7,
+      "name": "VICIMARE",
+      "description": "MARCA EXTERNA VESTIDOS DE BAÑO",
+      "status": "inactive",
+      "image": {
+        "id": 239,
+        "name": "Imagen1.jpg",
+        "url": "https://cdn3.alegra.com/58b6f7a9a514ee30ac791ffc42de2ae736e12b3b-1623186396-Imagen1.jpg?Expires=1756329473&Signature=WFzHcPErxfrsswJC1kyVLfKbBRfSs6J8HxEiaprD3Jt1JVXdoNX4qMWysvw5b7JhUMM5BeI-aDLG1Qe1GpS-9Jlyn9sjXEq-4cAx4oPFhXrHjFsOX~3LDtZvMLiZotONvAJ8hTTHH4xL8zdX74dMuN9Pxo0tEPfMnMpEQgYXlfnlF2rc3055WhWBKDPUHeWH8a3i3zNlBvXBXlFFWSko~HXuYPUwEAr0~TwqfBkRB~5XgvCCdF7KUkj9niJKhTwmKPrlJ2ugnoYC6nqP5X7fVYTu80yeO8hhD~-W2HO1pMR5yaPirgaQJz9x9MFmUiHS8Oh~tNjfKFxwn7dH0HxAIg__&Key-Pair-Id=APKAJU3VE62QBWZP27QQ"
+      }
+    },
+    "name": "AMARRE GRUESO ROSADO L",
+    "description": "VM",
+    "reference": null,
+    "status": "inactive",
+    "calculationScale": 2,
+    "price": [
+      {
+        "idPriceList": "1",
+        "name": "General",
+        "type": "amount",
+        "price": 100840.34,
+        "currency": {
+          "code": "COP",
+          "symbol": "$"
+        },
+        "main": true,
+        "edited": false
+      }
+    ],
+    "inventory": {
+      "initialQuantity": 2,
+      "initialQuantityDate": "2021-07-14",
+      "unit": "unit",
+      "unitCost": 90756.3,
+      "availableQuantity": 0,
+      "warehouses": [
+        {
+          "name": "Calle 94",
+          "observations": "",
+          "isDefault": true,
+          "status": "active",
+          "id": "1",
+          "costCenter": null,
+          "address": "Calle 94 # 11a-80",
+          "initialQuantity": 2,
+          "availableQuantity": 0,
+          "minQuantity": null,
+          "maxQuantity": null
+        }
+      ]
+    },
+    "accounting": {
+      "inventory": {
+        "id": "5023",
+        "idParent": "5002",
+        "name": "Inventarios",
+        "text": "Inventarios",
+        "code": null,
+        "description": "",
+        "type": "asset",
+        "readOnly": false,
+        "nature": "debit",
+        "blocked": "no",
+        "status": "active",
+        "categoryRule": {
+          "id": "7",
+          "name": "Inventario",
+          "key": "INVENTORY"
+        },
+        "use": "movement",
+        "showThirdPartyBalance": true
+      },
+      "inventariablePurchase": {
+        "id": "5071",
+        "idParent": "5070",
+        "name": "Costos del inventario",
+        "text": "Costos del inventario",
+        "code": null,
+        "description": "",
+        "type": "expense",
+        "readOnly": true,
+        "nature": "debit",
+        "blocked": "no",
+        "status": "active",
+        "categoryRule": {
+          "id": "33",
+          "name": "Costo de ventas",
+          "key": "INVENTARIABLE_PURCHASES"
+        },
+        "use": "movement",
+        "showThirdPartyBalance": true
+      }
+    },
+    "tax": [
+      {
+        "id": "3",
+        "name": "IVA",
+        "percentage": "19.00",
+        "description": "",
+        "status": "active",
+        "deductible": "yes",
+        "type": "IVA",
+        "categoryFavorable": {
+          "id": "5011",
+          "idParent": "5010",
+          "name": "Impuesto a las ventas a favor",
+          "text": "Impuesto a las ventas a favor",
+          "code": null,
+          "description": "",
+          "type": "asset",
+          "readOnly": false,
+          "nature": "debit",
+          "blocked": "no",
+          "status": "active",
+          "categoryRule": {
+            "id": "44",
+            "name": "IVA descontable",
+            "key": "IVA_IN_FAVOR_COL"
+          },
+          "use": "movement",
+          "showThirdPartyBalance": true
+        },
+        "categoryToBePaid": {
+          "id": "5043",
+          "idParent": "5042",
+          "name": "Impuesto a las ventas por pagar",
+          "text": "Impuesto a las ventas por pagar",
+          "code": null,
+          "description": "",
+          "type": "liability",
+          "readOnly": false,
+          "nature": "credit",
+          "blocked": "no",
+          "status": "active",
+          "categoryRule": {
+            "id": "47",
+            "name": "IVA generado",
+            "key": "IVA_TO_PAY_COL"
+          },
+          "use": "movement",
+          "showThirdPartyBalance": true
+        },
+        "rate": null
+      }
+    ],
+    "images": [
+      {
+        "id": 512,
+        "name": "Amarre Grueso Rosado.jpg",
+        "url": "https://cdn3.alegra.com/58b6f7a9a514ee30ac791ffc42de2ae736e12b3b-1626303290-Amarre+Grueso+Rosado.jpg?Expires=1756329473&Signature=LUVp9pvyHTbj1FERbT4j6GlhDIhUXeV0Raa7eZJ0jMI2wBTEnVrt4xS06~fymuKktRmq0KQAy4hJLoqorXQOom6~7Du4vgd76NPWJnpW6mUcrMX1mV4rmkCB5naAIADIA8sKSUbFwUTPDd7CbdWq4tyUUnXDcWeeIcua4EAz6T6wfe4jzF-Qe~NbgUwHDmJPb~4NpakTfakkxjh2zFrFjGLX49cmtanqGixE9pRviFb3cC9mHW3pWqO7F4EWZDIFkIsExyH9LwROANCOWkIRjEF--x-6tVsXJuuY4gcx9BDVAGIItv1xkUp4Hb5rlTlzqYaTRNwbGlR2hn0uhGSHbg__&Key-Pair-Id=APKAJU3VE62QBWZP27QQ",
+        "favorite": true
+      }
+    ],
+    "customFields": [],
+    "productKey": null,
+    "type": "simple",
+    "itemType": null
+  },
+  {
+    "id": "398",
+    "category": {
+      "id": "5063",
+      "name": "Ventas"
+    },
+    "hasNoIvaDays": false,
+    "itemCategory": {
+      "id": 8,
+      "name": "DELLA TERRA",
+      "description": "MARCA EXTERNO",
+      "status": "inactive",
+      "image": {
+        "id": 241,
+        "name": "cropped-ISOTIPO-DELLA-TERRA-NEGRO-3.png",
+        "url": "https://cdn3.alegra.com/58b6f7a9a514ee30ac791ffc42de2ae736e12b3b-1623193596-cropped-ISOTIPO-DELLA-TERRA-NEGRO-3.png?Expires=1756329473&Signature=FvfD4oqUXNIYePxa9xNqL6tkW5H79UQT6Z2iHO8F1b0MMuDj5EZBsb25iNONMbJhAnoRsZ1KHkGunX~uA9OpeVDg~NRXkEMpCvQM4vOcoKdr3XlAUeEMliLPM8d-khdQ~7B9gURWGH5BsuihSGof5uxTjowvfxTuLnJgBSC5nw56LpKjrFtNUnKLwu8IqLmyrZQVIsuNGdYz1G1YuLOle~CBucytEfJPyO4h3XQ0IK2~f4MwJAbb2E~7lOLFaArN4rJeLKU-DuisisG2nmYdCl4FhojkZDaoZvmgBhYJ~SxwjRJyzEkLUEaX7cTS5iqWmLIrGQfRExLqGxCaWEiSLg__&Key-Pair-Id=APKAJU3VE62QBWZP27QQ"
+      }
+    },
+    "name": "Anderson Slim Tee L Coconut-Blanco",
+    "description": "DT",
+    "reference": null,
+    "status": "inactive",
+    "calculationScale": 2,
+    "price": [
+      {
+        "idPriceList": "1",
+        "name": "General",
+        "type": "amount",
+        "price": 61008.4,
+        "currency": {
+          "code": "COP",
+          "symbol": "$"
+        },
+        "main": true,
+        "edited": false
+      }
+    ],
+    "inventory": {
+      "initialQuantity": 2,
+      "initialQuantityDate": "2021-06-08",
+      "unit": "unit",
+      "unitCost": 52411.5,
+      "availableQuantity": 0,
+      "warehouses": [
+        {
+          "name": "Calle 94",
+          "observations": "",
+          "isDefault": true,
+          "status": "active",
+          "id": "1",
+          "costCenter": null,
+          "address": "Calle 94 # 11a-80",
+          "initialQuantity": 2,
+          "availableQuantity": 0,
+          "minQuantity": null,
+          "maxQuantity": null
+        }
+      ]
+    },
+    "accounting": {
+      "inventory": {
+        "id": "5023",
+        "idParent": "5002",
+        "name": "Inventarios",
+        "text": "Inventarios",
+        "code": null,
+        "description": "",
+        "type": "asset",
+        "readOnly": false,
+        "nature": "debit",
+        "blocked": "no",
+        "status": "active",
+        "categoryRule": {
+          "id": "7",
+          "name": "Inventario",
+          "key": "INVENTORY"
+        },
+        "use": "movement",
+        "showThirdPartyBalance": true
+      },
+      "inventariablePurchase": {
+        "id": "5071",
+        "idParent": "5070",
+        "name": "Costos del inventario",
+        "text": "Costos del inventario",
+        "code": null,
+        "description": "",
+        "type": "expense",
+        "readOnly": true,
+        "nature": "debit",
+        "blocked": "no",
+        "status": "active",
+        "categoryRule": {
+          "id": "33",
+          "name": "Costo de ventas",
+          "key": "INVENTARIABLE_PURCHASES"
+        },
+        "use": "movement",
+        "showThirdPartyBalance": true
+      }
+    },
+    "tax": [
+      {
+        "id": "3",
+        "name": "IVA",
+        "percentage": "19.00",
+        "description": "",
+        "status": "active",
+        "deductible": "yes",
+        "type": "IVA",
+        "categoryFavorable": {
+          "id": "5011",
+          "idParent": "5010",
+          "name": "Impuesto a las ventas a favor",
+          "text": "Impuesto a las ventas a favor",
+          "code": null,
+          "description": "",
+          "type": "asset",
+          "readOnly": false,
+          "nature": "debit",
+          "blocked": "no",
+          "status": "active",
+          "categoryRule": {
+            "id": "44",
+            "name": "IVA descontable",
+            "key": "IVA_IN_FAVOR_COL"
+          },
+          "use": "movement",
+          "showThirdPartyBalance": true
+        },
+        "categoryToBePaid": {
+          "id": "5043",
+          "idParent": "5042",
+          "name": "Impuesto a las ventas por pagar",
+          "text": "Impuesto a las ventas por pagar",
+          "code": null,
+          "description": "",
+          "type": "liability",
+          "readOnly": false,
+          "nature": "credit",
+          "blocked": "no",
+          "status": "active",
+          "categoryRule": {
+            "id": "47",
+            "name": "IVA generado",
+            "key": "IVA_TO_PAY_COL"
+          },
+          "use": "movement",
+          "showThirdPartyBalance": true
+        },
+        "rate": null
+      }
+    ],
+    "images": [
+      {
+        "id": 260,
+        "name": "Anderson Slim Tee Blanco.jpg",
+        "url": "https://cdn3.alegra.com/58b6f7a9a514ee30ac791ffc42de2ae736e12b3b-1623259461-Anderson+Slim+Tee+Blanco.jpg?Expires=1756329473&Signature=OGCbW5rlv8mnMioZCZa6eeynGw8-qYMkEPjCFWwvfXTGRr4TklWtczDwItFiDjCwqEn53GRx0mNfunx-QZPXByGnWtstKj7Y6~GDqY6YI0T46AaUaA4AP6apa1MEcfz1IsakDUKzJLHJSMTZlL13aEW-dcwzysnq0pjDJVynJibfi29e0yVGSSCCtoMrb9F11CLwZ4JmPX-AR~i8F7tsYG2MldmkY-mzmYisiXNOj3~Z1m3kTLav07WbZknBTOkWJrqkV9xZQlmCphfA5IYiVaDxIBdKdyEWzah9uyS-hGYxiSYC6aLw2oeJaFhWl6qwaE1pDM5NRs6wlAWCPFwfiw__&Key-Pair-Id=APKAJU3VE62QBWZP27QQ",
+        "favorite": true
+      }
+    ],
+    "customFields": [],
+    "productKey": null,
+    "type": "simple",
+    "itemType": null
+  },
+  {
+    "id": "397",
+    "category": {
+      "id": "5063",
+      "name": "Ventas"
+    },
+    "hasNoIvaDays": false,
+    "itemCategory": {
+      "id": 8,
+      "name": "DELLA TERRA",
+      "description": "MARCA EXTERNO",
+      "status": "inactive",
+      "image": {
+        "id": 241,
+        "name": "cropped-ISOTIPO-DELLA-TERRA-NEGRO-3.png",
+        "url": "https://cdn3.alegra.com/58b6f7a9a514ee30ac791ffc42de2ae736e12b3b-1623193596-cropped-ISOTIPO-DELLA-TERRA-NEGRO-3.png?Expires=1756329473&Signature=FvfD4oqUXNIYePxa9xNqL6tkW5H79UQT6Z2iHO8F1b0MMuDj5EZBsb25iNONMbJhAnoRsZ1KHkGunX~uA9OpeVDg~NRXkEMpCvQM4vOcoKdr3XlAUeEMliLPM8d-khdQ~7B9gURWGH5BsuihSGof5uxTjowvfxTuLnJgBSC5nw56LpKjrFtNUnKLwu8IqLmyrZQVIsuNGdYz1G1YuLOle~CBucytEfJPyO4h3XQ0IK2~f4MwJAbb2E~7lOLFaArN4rJeLKU-DuisisG2nmYdCl4FhojkZDaoZvmgBhYJ~SxwjRJyzEkLUEaX7cTS5iqWmLIrGQfRExLqGxCaWEiSLg__&Key-Pair-Id=APKAJU3VE62QBWZP27QQ"
+      }
+    },
+    "name": "Anderson Slim Tee S Coconut-Blanco",
+    "description": "DT",
+    "reference": null,
+    "status": "inactive",
+    "calculationScale": 2,
+    "price": [
+      {
+        "idPriceList": "1",
+        "name": "General",
+        "type": "amount",
+        "price": 61008.4,
+        "currency": {
+          "code": "COP",
+          "symbol": "$"
+        },
+        "main": true,
+        "edited": false
+      }
+    ],
+    "inventory": {
+      "initialQuantity": 2,
+      "initialQuantityDate": "2021-06-08",
+      "unit": "unit",
+      "unitCost": 52411.5,
+      "availableQuantity": 0,
+      "warehouses": [
+        {
+          "name": "Calle 94",
+          "observations": "",
+          "isDefault": true,
+          "status": "active",
+          "id": "1",
+          "costCenter": null,
+          "address": "Calle 94 # 11a-80",
+          "initialQuantity": 2,
+          "availableQuantity": 0,
+          "minQuantity": null,
+          "maxQuantity": null
+        }
+      ]
+    },
+    "accounting": {
+      "inventory": {
+        "id": "5023",
+        "idParent": "5002",
+        "name": "Inventarios",
+        "text": "Inventarios",
+        "code": null,
+        "description": "",
+        "type": "asset",
+        "readOnly": false,
+        "nature": "debit",
+        "blocked": "no",
+        "status": "active",
+        "categoryRule": {
+          "id": "7",
+          "name": "Inventario",
+          "key": "INVENTORY"
+        },
+        "use": "movement",
+        "showThirdPartyBalance": true
+      },
+      "inventariablePurchase": {
+        "id": "5071",
+        "idParent": "5070",
+        "name": "Costos del inventario",
+        "text": "Costos del inventario",
+        "code": null,
+        "description": "",
+        "type": "expense",
+        "readOnly": true,
+        "nature": "debit",
+        "blocked": "no",
+        "status": "active",
+        "categoryRule": {
+          "id": "33",
+          "name": "Costo de ventas",
+          "key": "INVENTARIABLE_PURCHASES"
+        },
+        "use": "movement",
+        "showThirdPartyBalance": true
+      }
+    },
+    "tax": [
+      {
+        "id": "3",
+        "name": "IVA",
+        "percentage": "19.00",
+        "description": "",
+        "status": "active",
+        "deductible": "yes",
+        "type": "IVA",
+        "categoryFavorable": {
+          "id": "5011",
+          "idParent": "5010",
+          "name": "Impuesto a las ventas a favor",
+          "text": "Impuesto a las ventas a favor",
+          "code": null,
+          "description": "",
+          "type": "asset",
+          "readOnly": false,
+          "nature": "debit",
+          "blocked": "no",
+          "status": "active",
+          "categoryRule": {
+            "id": "44",
+            "name": "IVA descontable",
+            "key": "IVA_IN_FAVOR_COL"
+          },
+          "use": "movement",
+          "showThirdPartyBalance": true
+        },
+        "categoryToBePaid": {
+          "id": "5043",
+          "idParent": "5042",
+          "name": "Impuesto a las ventas por pagar",
+          "text": "Impuesto a las ventas por pagar",
+          "code": null,
+          "description": "",
+          "type": "liability",
+          "readOnly": false,
+          "nature": "credit",
+          "blocked": "no",
+          "status": "active",
+          "categoryRule": {
+            "id": "47",
+            "name": "IVA generado",
+            "key": "IVA_TO_PAY_COL"
+          },
+          "use": "movement",
+          "showThirdPartyBalance": true
+        },
+        "rate": null
+      }
+    ],
+    "images": [
+      {
+        "id": 261,
+        "name": "Anderson Slim Tee Blanco.jpg",
+        "url": "https://cdn3.alegra.com/58b6f7a9a514ee30ac791ffc42de2ae736e12b3b-1623259472-Anderson+Slim+Tee+Blanco.jpg?Expires=1756329474&Signature=Xoo0hxNSvUUVh9sFLkQN1RtZL1N~jxcQOnNeD6NUuzoDsPoColuW2AJDW2jN09p4IIzkTguGrKUkMFRNBVzqXKCY2MaGAsrkCl4aVuqPBparPtSshYqKgj8bUh6XB~KmrW1EeC0w6Nvk3b04q9U1n7habe5euIXxtaxt7Uhj6vHXRbVkEUWtTqeGRi9pIQ3QKyI-drxSMvZg7HJjPZvy8JyzeSJ5EfUZxs~5XQjxLAhSA0yh2gzniSwk-7C-gi9k6lA6c3D7kpqlBT88j03zbPEPwHjUabnYNZmOIs7OuqDbxsbV1pVrWkApwVlOqIw4iCpCivLwpRfKTxUTG1KiXg__&Key-Pair-Id=APKAJU3VE62QBWZP27QQ",
+        "favorite": true
+      }
+    ],
+    "customFields": [],
+    "productKey": null,
+    "type": "simple",
+    "itemType": null
+  },
+  {
+    "id": "382",
+    "category": {
+      "id": "5063",
+      "name": "Ventas"
+    },
+    "hasNoIvaDays": false,
+    "itemCategory": {
+      "id": 8,
+      "name": "DELLA TERRA",
+      "description": "MARCA EXTERNO",
+      "status": "inactive",
+      "image": {
+        "id": 241,
+        "name": "cropped-ISOTIPO-DELLA-TERRA-NEGRO-3.png",
+        "url": "https://cdn3.alegra.com/58b6f7a9a514ee30ac791ffc42de2ae736e12b3b-1623193596-cropped-ISOTIPO-DELLA-TERRA-NEGRO-3.png?Expires=1756329474&Signature=lsdgOpsPQNkfLfnBKOZ2mETKHsrQ8FYYBO5ToMld4QnindDtDgmYRQrNSnbvRk61TLpTNv-WkJ3EPFuwQpo42POBrqTzsymbu57uWWHxdOcVPBJ2AzMVwaVWrkNg9qlwmcKqMp4~8XOHn6F4qSY5u02HXADgtwW6B5ezvt6lUp7JIyd1sl-yGNNZwzyRbc8GTz1PIvBwipIWavHssBoOFlsNyOYoT3edZMKEXg3QTm025iaoRkDk65GYlu63UqAfQ2bEE2kmKT45gRHTmYJnQXfLvAj-CWk6lprRf0O8BXR-EVPBzd0~VQVfBfyebFudmU1eLtkV5Dfe1lRj2ga50g__&Key-Pair-Id=APKAJU3VE62QBWZP27QQ"
+      }
+    },
+    "name": "Anderson Slim Tee with Pocket L Charcoal-Negro",
+    "description": "DT",
+    "reference": null,
+    "status": "inactive",
+    "calculationScale": 6,
+    "price": [
+      {
+        "idPriceList": "1",
+        "name": "General",
+        "type": "amount",
+        "price": 61008.4,
+        "currency": {
+          "code": "COP",
+          "symbol": "$"
+        },
+        "main": true,
+        "edited": false
+      }
+    ],
+    "inventory": {
+      "initialQuantity": 3,
+      "initialQuantityDate": "2021-06-08",
+      "unit": "unit",
+      "unitCost": 54907.2,
+      "availableQuantity": 0,
+      "warehouses": [
+        {
+          "name": "Calle 94",
+          "observations": "",
+          "isDefault": true,
+          "status": "active",
+          "id": "1",
+          "costCenter": null,
+          "address": "Calle 94 # 11a-80",
+          "initialQuantity": 3,
+          "availableQuantity": 0,
+          "minQuantity": null,
+          "maxQuantity": null
+        }
+      ]
+    },
+    "accounting": {
+      "inventory": {
+        "id": "5023",
+        "idParent": "5002",
+        "name": "Inventarios",
+        "text": "Inventarios",
+        "code": null,
+        "description": "",
+        "type": "asset",
+        "readOnly": false,
+        "nature": "debit",
+        "blocked": "no",
+        "status": "active",
+        "categoryRule": {
+          "id": "7",
+          "name": "Inventario",
+          "key": "INVENTORY"
+        },
+        "use": "movement",
+        "showThirdPartyBalance": true
+      },
+      "inventariablePurchase": {
+        "id": "5071",
+        "idParent": "5070",
+        "name": "Costos del inventario",
+        "text": "Costos del inventario",
+        "code": null,
+        "description": "",
+        "type": "expense",
+        "readOnly": true,
+        "nature": "debit",
+        "blocked": "no",
+        "status": "active",
+        "categoryRule": {
+          "id": "33",
+          "name": "Costo de ventas",
+          "key": "INVENTARIABLE_PURCHASES"
+        },
+        "use": "movement",
+        "showThirdPartyBalance": true
+      }
+    },
+    "tax": [
+      {
+        "id": "3",
+        "name": "IVA",
+        "percentage": "19.00",
+        "description": "",
+        "status": "active",
+        "deductible": "yes",
+        "type": "IVA",
+        "categoryFavorable": {
+          "id": "5011",
+          "idParent": "5010",
+          "name": "Impuesto a las ventas a favor",
+          "text": "Impuesto a las ventas a favor",
+          "code": null,
+          "description": "",
+          "type": "asset",
+          "readOnly": false,
+          "nature": "debit",
+          "blocked": "no",
+          "status": "active",
+          "categoryRule": {
+            "id": "44",
+            "name": "IVA descontable",
+            "key": "IVA_IN_FAVOR_COL"
+          },
+          "use": "movement",
+          "showThirdPartyBalance": true
+        },
+        "categoryToBePaid": {
+          "id": "5043",
+          "idParent": "5042",
+          "name": "Impuesto a las ventas por pagar",
+          "text": "Impuesto a las ventas por pagar",
+          "code": null,
+          "description": "",
+          "type": "liability",
+          "readOnly": false,
+          "nature": "credit",
+          "blocked": "no",
+          "status": "active",
+          "categoryRule": {
+            "id": "47",
+            "name": "IVA generado",
+            "key": "IVA_TO_PAY_COL"
+          },
+          "use": "movement",
+          "showThirdPartyBalance": true
+        },
+        "rate": null
+      }
+    ],
+    "images": [
+      {
+        "id": 243,
+        "name": "Anderson Slim Tee Negro.jpg",
+        "url": "https://cdn3.alegra.com/58b6f7a9a514ee30ac791ffc42de2ae736e12b3b-1623258936-Anderson+Slim+Tee+Negro.jpg?Expires=1756329474&Signature=jGAmT3Ies4nZrN5YclJ0Mv5jBMbNpiTPi8X8h~mqRktoO~5aamfJQJgrQVhXhr5P5ayXeHXdk2rFc8dukesy54zjC7oP4q5TeZq1A-290w0zUXOL1I1HW~9QOU87bExgMjM0D8uApgOeN3MqeGQOsSevqbY07mpRGHX8VE8sEXrW4FCi8tzTdXijFNV14pEe4QhexmUV0vaeRmhfPRQfCXVWNKI2mhLQiw61ZUlLua7MOQYC4oZlHWwYCo9AYQgLi6AaOjWYihz1u4YCmytNYaqHBVthY5jYLFhRFYiolyZ2tsZ2SQyeWKZ3h1kAP4mlcPb7l7DsqS-VLQQs3zJJwA__&Key-Pair-Id=APKAJU3VE62QBWZP27QQ",
+        "favorite": true
+      }
+    ],
+    "customFields": [],
+    "productKey": null,
+    "type": "simple",
+    "itemType": null
+  },
+  {
+    "id": "381",
+    "category": {
+      "id": "5063",
+      "name": "Ventas"
+    },
+    "hasNoIvaDays": false,
+    "itemCategory": {
+      "id": 8,
+      "name": "DELLA TERRA",
+      "description": "MARCA EXTERNO",
+      "status": "inactive",
+      "image": {
+        "id": 241,
+        "name": "cropped-ISOTIPO-DELLA-TERRA-NEGRO-3.png",
+        "url": "https://cdn3.alegra.com/58b6f7a9a514ee30ac791ffc42de2ae736e12b3b-1623193596-cropped-ISOTIPO-DELLA-TERRA-NEGRO-3.png?Expires=1756329474&Signature=lsdgOpsPQNkfLfnBKOZ2mETKHsrQ8FYYBO5ToMld4QnindDtDgmYRQrNSnbvRk61TLpTNv-WkJ3EPFuwQpo42POBrqTzsymbu57uWWHxdOcVPBJ2AzMVwaVWrkNg9qlwmcKqMp4~8XOHn6F4qSY5u02HXADgtwW6B5ezvt6lUp7JIyd1sl-yGNNZwzyRbc8GTz1PIvBwipIWavHssBoOFlsNyOYoT3edZMKEXg3QTm025iaoRkDk65GYlu63UqAfQ2bEE2kmKT45gRHTmYJnQXfLvAj-CWk6lprRf0O8BXR-EVPBzd0~VQVfBfyebFudmU1eLtkV5Dfe1lRj2ga50g__&Key-Pair-Id=APKAJU3VE62QBWZP27QQ"
+      }
+    },
+    "name": "Anderson Slim Tee with Pocket M Charcoal-Negro",
+    "description": "DT",
+    "reference": null,
+    "status": "inactive",
+    "calculationScale": 6,
+    "price": [
+      {
+        "idPriceList": "1",
+        "name": "General",
+        "type": "amount",
+        "price": 61008.4,
+        "currency": {
+          "code": "COP",
+          "symbol": "$"
+        },
+        "main": true,
+        "edited": false
+      }
+    ],
+    "inventory": {
+      "initialQuantity": 3,
+      "initialQuantityDate": "2021-06-08",
+      "unit": "unit",
+      "unitCost": 54907.2,
+      "availableQuantity": 0,
+      "warehouses": [
+        {
+          "name": "Calle 94",
+          "observations": "",
+          "isDefault": true,
+          "status": "active",
+          "id": "1",
+          "costCenter": null,
+          "address": "Calle 94 # 11a-80",
+          "initialQuantity": 3,
+          "availableQuantity": 0,
+          "minQuantity": null,
+          "maxQuantity": null
+        }
+      ]
+    },
+    "accounting": {
+      "inventory": {
+        "id": "5023",
+        "idParent": "5002",
+        "name": "Inventarios",
+        "text": "Inventarios",
+        "code": null,
+        "description": "",
+        "type": "asset",
+        "readOnly": false,
+        "nature": "debit",
+        "blocked": "no",
+        "status": "active",
+        "categoryRule": {
+          "id": "7",
+          "name": "Inventario",
+          "key": "INVENTORY"
+        },
+        "use": "movement",
+        "showThirdPartyBalance": true
+      },
+      "inventariablePurchase": {
+        "id": "5071",
+        "idParent": "5070",
+        "name": "Costos del inventario",
+        "text": "Costos del inventario",
+        "code": null,
+        "description": "",
+        "type": "expense",
+        "readOnly": true,
+        "nature": "debit",
+        "blocked": "no",
+        "status": "active",
+        "categoryRule": {
+          "id": "33",
+          "name": "Costo de ventas",
+          "key": "INVENTARIABLE_PURCHASES"
+        },
+        "use": "movement",
+        "showThirdPartyBalance": true
+      }
+    },
+    "tax": [
+      {
+        "id": "3",
+        "name": "IVA",
+        "percentage": "19.00",
+        "description": "",
+        "status": "active",
+        "deductible": "yes",
+        "type": "IVA",
+        "categoryFavorable": {
+          "id": "5011",
+          "idParent": "5010",
+          "name": "Impuesto a las ventas a favor",
+          "text": "Impuesto a las ventas a favor",
+          "code": null,
+          "description": "",
+          "type": "asset",
+          "readOnly": false,
+          "nature": "debit",
+          "blocked": "no",
+          "status": "active",
+          "categoryRule": {
+            "id": "44",
+            "name": "IVA descontable",
+            "key": "IVA_IN_FAVOR_COL"
+          },
+          "use": "movement",
+          "showThirdPartyBalance": true
+        },
+        "categoryToBePaid": {
+          "id": "5043",
+          "idParent": "5042",
+          "name": "Impuesto a las ventas por pagar",
+          "text": "Impuesto a las ventas por pagar",
+          "code": null,
+          "description": "",
+          "type": "liability",
+          "readOnly": false,
+          "nature": "credit",
+          "blocked": "no",
+          "status": "active",
+          "categoryRule": {
+            "id": "47",
+            "name": "IVA generado",
+            "key": "IVA_TO_PAY_COL"
+          },
+          "use": "movement",
+          "showThirdPartyBalance": true
+        },
+        "rate": null
+      }
+    ],
+    "images": [
+      {
+        "id": 245,
+        "name": "Anderson Slim Tee Negro.jpg",
+        "url": "https://cdn3.alegra.com/58b6f7a9a514ee30ac791ffc42de2ae736e12b3b-1623258954-Anderson+Slim+Tee+Negro.jpg?Expires=1756329474&Signature=X08BKHiLve~e2NPKBwhADvLAORLYr4KpXTRy5bZjPSSbXM9xMql5cuvVoGMhN4halbwDTonriAHhaaCFpjtLiq6OasJFRR~6vuIYBDyYU3lvuIPFVlpLGSb~dRUSV-AoIkR2nkW8xM-o9y4mFVq6gnPmlLvKgepk0MhdMkiiEYvYlbCpDcl~rMdA92TuTtZ69BFf4QG8r0~dzmrvohhgLzFW3FMw02V9qYArp4D6dGX6OSCje~NkEUc1yfsd95Jo6zpRFD1eXhPHUuu66djOf3wODmJDIZFc8j~Kr5KjKieH97C3pb6-5ZzCy2h6BofovR9bxKKv3hxOZ6pqrPLFOQ__&Key-Pair-Id=APKAJU3VE62QBWZP27QQ",
+        "favorite": true
+      }
+    ],
+    "customFields": [],
+    "productKey": null,
+    "type": "simple",
+    "itemType": null
+  }
+]

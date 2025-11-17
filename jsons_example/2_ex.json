@@ -1,0 +1,232 @@
+[
+  {
+    "id": "222",
+    "category": {
+      "id": "5063",
+      "name": "Ventas"
+    },
+    "hasNoIvaDays": true,
+    "noIvaDaysCategory": "LOCKER_ROOM",
+    "noIvaDaysGenre": "TSHIRTS",
+    "itemCategory": {
+      "id": 5,
+      "name": "CAMISETAS",
+      "description": "",
+      "status": "active",
+      "image": {
+        "id": 137,
+        "name": "DSC_0233_540x.jpg",
+        "url": "https://cdn3.alegra.com/58b6f7a9a514ee30ac791ffc42de2ae736e12b3b-1622741628-DSC_0233_540x.jpg?Expires=1755810097&Signature=O4cspCchYALGSPUOveopPJKI-BbjcMHKp6PFOtbaXBkkC~kJgb0Svhy1b6GJwpdhHvXvf-kEfJj9XvR07F5tIduUSXKyDGDiJA9E5a0F~EMdamMBBv8ecD9t~u0dsSGVqEWPqL6iRrcsiXpbrcke7j49ZUwmvZokqZHAkTvbUPns9-rZV920HUCg56dlw0msgu32epzTNlmr012B61pYfsBjVV7y3CoCCngPRTMLRm8T7rKqtySOi31xjFFhDb2~8eLV5-N3XqJCZD9TB7JsPk06HSCkyawt74JRHBCpY4k9NjRG~VYwlsW~8GajCASsRj-BnT3K-5x8Myp1BtJGDQ__&Key-Pair-Id=APKAJU3VE62QBWZP27QQ"
+      }
+    },
+    "name": "CAMISETA HOMBRE BASICA AZUL L",
+    "description": "C2022",
+    "reference": null,
+    "status": "inactive",
+    "calculationScale": 2,
+    "price": [
+      {
+        "idPriceList": "1",
+        "name": "General",
+        "type": "amount",
+        "price": 58739.5,
+        "currency": {
+          "code": "COP",
+          "symbol": "$"
+        },
+        "main": true,
+        "edited": false
+      },
+      {
+        "idPriceList": "3",
+        "name": "2x camisetas (valor)",
+        "type": "amount",
+        "price": 50336.13,
+        "currency": {
+          "code": "COP",
+          "symbol": "$"
+        },
+        "main": false,
+        "edited": false
+      }
+    ],
+    "inventory": {
+      "initialQuantity": 6,
+      "initialQuantityDate": "2021-04-22",
+      "unit": "unit",
+      "unitCost": 19467,
+      "availableQuantity": 0,
+      "warehouses": [
+        {
+          "name": "Calle 94",
+          "observations": "",
+          "isDefault": true,
+          "status": "active",
+          "id": "1",
+          "costCenter": null,
+          "address": "Calle 94 # 11a-80",
+          "initialQuantity": 6,
+          "availableQuantity": 0,
+          "minQuantity": null,
+          "maxQuantity": null
+        },
+        {
+          "name": ".com",
+          "observations": "",
+          "isDefault": false,
+          "status": "inactive",
+          "id": "2",
+          "costCenter": null,
+          "address": "Calle 94 # 11a-80",
+          "initialQuantity": 0,
+          "availableQuantity": 0,
+          "minQuantity": null,
+          "maxQuantity": null
+        },
+        {
+          "name": "Colina",
+          "observations": "",
+          "isDefault": false,
+          "status": "inactive",
+          "id": "3",
+          "costCenter": null,
+          "address": "Av Boyaca # 145-50",
+          "initialQuantity": null,
+          "availableQuantity": 0,
+          "minQuantity": null,
+          "maxQuantity": null
+        },
+        {
+          "name": "VASSAR",
+          "observations": "",
+          "isDefault": false,
+          "status": "inactive",
+          "id": "7",
+          "costCenter": null,
+          "address": "Parque del country",
+          "initialQuantity": null,
+          "availableQuantity": 0,
+          "minQuantity": null,
+          "maxQuantity": null
+        }
+      ]
+    },
+    "accounting": {
+      "inventory": {
+        "id": "5023",
+        "idParent": "5002",
+        "name": "Inventarios",
+        "text": "Inventarios",
+        "code": null,
+        "description": "",
+        "type": "asset",
+        "readOnly": false,
+        "nature": "debit",
+        "blocked": "no",
+        "status": "active",
+        "categoryRule": {
+          "id": "7",
+          "name": "Inventario",
+          "key": "INVENTORY"
+        },
+        "use": "movement",
+        "showThirdPartyBalance": true
+      },
+      "inventariablePurchase": {
+        "id": "5071",
+        "idParent": "5070",
+        "name": "Costos del inventario",
+        "text": "Costos del inventario",
+        "code": null,
+        "description": "",
+        "type": "expense",
+        "readOnly": true,
+        "nature": "debit",
+        "blocked": "no",
+        "status": "active",
+        "categoryRule": {
+          "id": "33",
+          "name": "Costo de ventas",
+          "key": "INVENTARIABLE_PURCHASES"
+        },
+        "use": "movement",
+        "showThirdPartyBalance": true
+      }
+    },
+    "tax": [
+      {
+        "id": "3",
+        "name": "IVA",
+        "percentage": "19.00",
+        "description": "",
+        "status": "active",
+        "deductible": "yes",
+        "type": "IVA",
+        "categoryFavorable": {
+          "id": "5011",
+          "idParent": "5010",
+          "name": "Impuesto a las ventas a favor",
+          "text": "Impuesto a las ventas a favor",
+          "code": null,
+          "description": "",
+          "type": "asset",
+          "readOnly": false,
+          "nature": "debit",
+          "blocked": "no",
+          "status": "active",
+          "categoryRule": {
+            "id": "44",
+            "name": "IVA descontable",
+            "key": "IVA_IN_FAVOR_COL"
+          },
+          "use": "movement",
+          "showThirdPartyBalance": true
+        },
+        "categoryToBePaid": {
+          "id": "5043",
+          "idParent": "5042",
+          "name": "Impuesto a las ventas por pagar",
+          "text": "Impuesto a las ventas por pagar",
+          "code": null,
+          "description": "",
+          "type": "liability",
+          "readOnly": false,
+          "nature": "credit",
+          "blocked": "no",
+          "status": "active",
+          "categoryRule": {
+            "id": "47",
+            "name": "IVA generado",
+            "key": "IVA_TO_PAY_COL"
+          },
+          "use": "movement",
+          "showThirdPartyBalance": true
+        },
+        "rate": null
+      }
+    ],
+    "images": [
+      {
+        "id": 46,
+        "name": "DSC_0271_540x.jpg",
+        "url": "https://cdn3.alegra.com/58b6f7a9a514ee30ac791ffc42de2ae736e12b3b-1622737908-DSC_0271_540x.jpg?Expires=1755810097&Signature=o79O~MaEHJV-sOxcHFC0XdekUhNbpKir-y0Nop2519INjWD7teGmZsYH4EhnWWFeFrge-zPgDl8g45B~EfCSmM2OpLrp4EUhq09MHipHJ0eXoh0JOep-Erb2Qb6Mavret275OLCS--jdV4mkKXL~U16-GBTOBNGOm~YpmPkelEY2jmKLHZfrIknWixw921hLSBwNHlc8aAjwTS16814Lv8CxacrkuXDEd53oylcXAxXbXHDvWpE7AV3efWH05~T9IC4qutzhDyObBFst7SCcepP2j9Yt5NXIpQZ1s1BOaHFgnuJxa~fimycvUPIvtPiwc-c-KUhKzRDQxxDDagLINA__&Key-Pair-Id=APKAJU3VE62QBWZP27QQ",
+        "favorite": true
+      }
+    ],
+    "customFields": [
+      {
+        "id": "1",
+        "name": "Código de barras",
+        "label": "Código de barras",
+        "key": "barcode",
+        "value": "4294592",
+        "type": "text",
+        "isRequired": false,
+        "status": "active"
+      }
+    ],
+    "productKey": null,
+    "type": "product",
+    "itemType": null
+  }
+]

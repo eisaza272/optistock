@@ -1,0 +1,167 @@
+{
+  "id": "733",
+  "category": {
+    "id": "5063",
+    "name": "Ventas"
+  },
+  "hasNoIvaDays": false,
+  "itemCategory": {
+    "id": 10,
+    "name": "SIENTOCHENTA",
+    "description": "",
+    "status": "inactive"
+  },
+  "name": "Al Gore Gris Gris lino M",
+  "description": "SO",
+  "reference": null,
+  "status": "inactive",
+  "calculationScale": 6,
+  "price": [
+    {
+      "idPriceList": "1",
+      "name": "General",
+      "type": "amount",
+      "price": 193277.31,
+      "currency": {
+        "code": "COP",
+        "symbol": "$"
+      },
+      "main": true,
+      "edited": false
+    }
+  ],
+  "inventory": {
+    "initialQuantity": 1,
+    "initialQuantityDate": "2021-08-03",
+    "unit": "unit",
+    "unitCost": 173949.58,
+    "availableQuantity": 0,
+    "warehouses": [
+      {
+        "name": "Calle 94",
+        "observations": null,
+        "isDefault": true,
+        "status": "active",
+        "id": "1",
+        "costCenter": null,
+        "address": "Calle 94 # 11a-80",
+        "initialQuantity": 1,
+        "availableQuantity": 0,
+        "minQuantity": null,
+        "maxQuantity": null
+      }
+    ]
+  },
+  "accounting": {
+    "inventory": {
+      "id": "5023",
+      "idParent": "5002",
+      "name": "Inventarios",
+      "text": "Inventarios",
+      "code": null,
+      "description": "",
+      "type": "asset",
+      "readOnly": false,
+      "nature": "debit",
+      "blocked": "no",
+      "status": "active",
+      "categoryRule": {
+        "id": "7",
+        "name": "Inventario",
+        "key": "INVENTORY"
+      },
+      "use": "movement",
+      "showThirdPartyBalance": true
+    },
+    "inventariablePurchase": {
+      "id": "5071",
+      "idParent": "5070",
+      "name": "Costos del inventario",
+      "text": "Costos del inventario",
+      "code": null,
+      "description": "",
+      "type": "expense",
+      "readOnly": true,
+      "nature": "debit",
+      "blocked": "no",
+      "status": "active",
+      "categoryRule": {
+        "id": "33",
+        "name": "Costo de ventas",
+        "key": "INVENTARIABLE_PURCHASES"
+      },
+      "use": "movement",
+      "showThirdPartyBalance": true
+    }
+  },
+  "tax": [
+    {
+      "id": "3",
+      "name": "IVA",
+      "percentage": "19.00",
+      "description": "",
+      "status": "active",
+      "deductible": "yes",
+      "type": "IVA",
+      "categoryFavorable": {
+        "id": "5011",
+        "idParent": "5010",
+        "name": "Impuesto a las ventas a favor",
+        "text": "Impuesto a las ventas a favor",
+        "code": null,
+        "description": "",
+        "type": "asset",
+        "readOnly": false,
+        "nature": "debit",
+        "blocked": "no",
+        "status": "active",
+        "categoryRule": {
+          "id": "44",
+          "name": "IVA descontable",
+          "key": "IVA_IN_FAVOR_COL"
+        },
+        "use": "movement",
+        "showThirdPartyBalance": true
+      },
+      "categoryToBePaid": {
+        "id": "5043",
+        "idParent": "5042",
+        "name": "Impuesto a las ventas por pagar",
+        "text": "Impuesto a las ventas por pagar",
+        "code": null,
+        "description": "",
+        "type": "liability",
+        "readOnly": false,
+        "nature": "credit",
+        "blocked": "no",
+        "status": "active",
+        "categoryRule": {
+          "id": "47",
+          "name": "IVA generado",
+          "key": "IVA_TO_PAY_COL"
+        },
+        "use": "movement",
+        "showThirdPartyBalance": true
+      },
+      "rate": null
+    }
+  ],
+  "images": [
+    {
+      "id": 607,
+      "name": "AL GORE GRIS.png",
+      "url": "https://cdn3.alegra.com/58b6f7a9a514ee30ac791ffc42de2ae736e12b3b-1628103663-AL+GORE+GRIS.png?Expires=1762261156&Signature=Ok0wtq0oRFUcH9aHmY855Z-rupDz8YRpKLKU-LuHsRRmAF0fcWA~wVX9ve6zis~QMjkqZRXiDQmvWqmsS-qYTsok20QSILu3AtA9pakR8W1SDN-DsWLI-cLbCcnkrTZn4jV3GZjRC1lwvK5GJ57GENGspHhnN3j5KEy0kONu6t7S5-jJW1ZuYK~RVWZambDyg3r8e1czowsbDsLBa91Na-ccpR-7kGDq8JLHdRqXGMAZKoOGX7Vxa1u0bpwSGBZwFwY-eRF7ptAjBC-ytcarxatduw6aoOXtRI24wS-KlP1jYIXqDrVtYVXKWuRAsFz1YA84qwmGs7sS8KxtEEmfBw__&Key-Pair-Id=APKAJU3VE62QBWZP27QQ",
+      "favorite": false
+    },
+    {
+      "id": 608,
+      "name": "AL GORE GRIS.png",
+      "url": "https://cdn3.alegra.com/58b6f7a9a514ee30ac791ffc42de2ae736e12b3b-1628103674-AL+GORE+GRIS.png?Expires=1762261156&Signature=oiFWi9l~LeuGEXl7uF2tjZ8yLw55CkmmVio-5ClIrvv-9RBtIozwWBYzmI-lh2RCRkgr01uiUVqPDgx3yLmjHtX9yjcwdxautVmkNwSI~z7oj28hoJMh03VMGa~8rUwcrdIxxHJRPA40W8ps2QzU8XXjROQkwAUXnX3~nHbazpGnFbHDxnbuGN8Pu7nK8xvO0E-WoiX~uNdwO7iVjVdpx2vk5q92CawiKdvBoHe3WDfaOvyKKtkpQn74NwdiWRTifEzAHs2nO7JRvFKwz~Ve9qn~bNdy0oXipkS6qNRGNBam9EawaqycPZwmqpUf2ZiTqxxeLvdNjnPwSUz51lE2dA__&Key-Pair-Id=APKAJU3VE62QBWZP27QQ",
+      "favorite": true
+    }
+  ],
+  "customFields": [],
+  "productKey": null,
+  "type": "simple",
+  "itemType": null
+}
